@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 
 public class GitLogGenerator {
     public static void main(String[] args) {
-        String stringPath = "/home/denisu/IdeaProjects/GitLogGenerator";
+        String stringPath = args[0];
 
         Path path = Paths.get(stringPath);
         try {
