@@ -1,37 +1,35 @@
 package com.denisfeier;
 
-import com.denisfeier.entity.FileAttributes;
+import com.denisfeier.entity.Directory;
+import com.denisfeier.entity.File;
 
 import java.io.IOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
-import java.util.List;
 
 public class RecursiveScanner {
 
-    private final List<FileAttributes> paths = new ArrayList<>();
-
-    private List<FileAttributes> walk(Path path) throws IOException {
-        try (DirectoryStream<Path> stream = Files.newDirectoryStream(path)) {
+    private Directory walk(Directory directory) throws IOException {
+        try (DirectoryStream<Path> stream = Files.newDirectoryStream(directory.getBasePath())) {
             for (Path entry : stream) {
                 if (Files.isDirectory(entry)) {
-                    walk(entry);
+                    Directory dir = new Directory(entry);
+                    walk(dir);
+                    directory.addSubFile(dir);
+                } else {
+                    directory.addSubFile(new File(entry));
                 }
 
-                BasicFileAttributes attr = Files.readAttributes(entry, BasicFileAttributes.class);
-
-                this.paths.add(new FileAttributes(entry));
             }
         }
-        return this.paths;
+        return directory;
     }
 
-    public static List<FileAttributes> dirScanning(Path path) throws IOException {
+    public static Directory dirScanning(Path path) throws IOException {
         RecursiveScanner scanner = new RecursiveScanner();
-        return scanner.walk(path);
+        Directory dir = new Directory(path);
+        return scanner.walk(dir);
     }
 
 }
