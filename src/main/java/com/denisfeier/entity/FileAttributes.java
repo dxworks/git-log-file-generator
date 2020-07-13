@@ -10,13 +10,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.FileTime;
+import java.nio.file.attribute.UserPrincipal;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @ToString
 public final class FileAttributes {
-    private Path filePath;
     private FileTime lastModifiedTime;
     private FileTime lastAccessTime;
     private FileTime creationTime;
@@ -28,7 +28,6 @@ public final class FileAttributes {
     private Object fileKey;
 
     public FileAttributes(Path filePath) throws IOException {
-        this.filePath = filePath;
         BasicFileAttributes attr = Files.readAttributes(filePath, BasicFileAttributes.class);
         this.creationTime = attr.creationTime();
         this.lastAccessTime = attr.lastAccessTime();
