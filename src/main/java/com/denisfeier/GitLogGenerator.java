@@ -1,7 +1,10 @@
 package com.denisfeier;
 
+import com.denisfeier.entity.FileAttributes;
+
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 public class GitLogGenerator {
     public static void main(String[] args) {
@@ -9,7 +12,11 @@ public class GitLogGenerator {
 
         Path path = Paths.get(stringPath);
         try {
-            System.out.println(RecursiveScanner.dirScanning(path));
+            List<FileAttributes> fileAttributes = RecursiveScanner.dirScanning(path);
+            for (FileAttributes entity: fileAttributes) {
+                System.out.println(entity);
+            }
+
         } catch (Exception e) {
             System.out.println(e);
         }

@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,11 +18,9 @@ public class RecursiveScanner {
             for (Path entry : stream) {
                 if (Files.isDirectory(entry)) {
                     walk(entry);
+                } else {
+                    this.paths.add(new FileAttributes(entry));
                 }
-
-                BasicFileAttributes attr = Files.readAttributes(entry, BasicFileAttributes.class);
-
-                this.paths.add(new FileAttributes(entry));
             }
         }
         return this.paths;
