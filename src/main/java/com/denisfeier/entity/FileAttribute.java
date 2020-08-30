@@ -16,7 +16,7 @@ import java.nio.file.attribute.UserPrincipal;
 @NoArgsConstructor
 @Data
 @ToString
-public final class FileAttributes {
+public final class FileAttribute {
 
     private Path basePath;
     private FileTime lastModifiedTime;
@@ -29,7 +29,7 @@ public final class FileAttributes {
     private Boolean isOther;
     private UserPrincipal owner;
 
-    public FileAttributes(Path filePath) throws IOException {
+    public FileAttribute(Path filePath) throws IOException {
         BasicFileAttributes attr = Files.readAttributes(filePath, BasicFileAttributes.class);
         this.basePath = filePath;
         this.creationTime = attr.creationTime();
