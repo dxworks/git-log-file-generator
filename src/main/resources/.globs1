@@ -1,12 +1,11 @@
 # black listed
 
 **/*.iml
-**/.idea/**
-**/target/**
-# **/src/**
-**/.git/**
+.idea/**
+target/**
+src/**
+.git/**
 
-**/target
 
 # white listed
 ! **/.idea/.gitignore

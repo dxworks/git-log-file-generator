@@ -9,6 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class RecursiveScanner {
 
@@ -23,28 +24,32 @@ public class RecursiveScanner {
         this.ignorer = new Ignorer();
     }
 
-    private List<FileAttribute> walk(Path path) throws IOException {
+    private List<FileAttribute> walk(Path path, Optional<Path> rootPath) throws IOException {
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(path)) {
             for (Path entry : stream) {
                 if (Files.isDirectory(entry)) {
-                    walk(entry);
+                    walk(entry, rootPath);
                 } else {
-                    if (this.ignorer.accept(entry.toString()))
-                        this.paths.add(new FileAttribute(entry));
+                    if (rootPath.isPresent()) {
+                        Path relativizedPath = rootPath.get().relativize(entry);
+                        if (this.ignorer.accept(relativizedPath.toString())) {
+                            this.paths.add(new FileAttribute(entry, relativizedPath));
+                        }
+                    } else {
+                        if (this.ignorer.accept(entry.toString()))
+                            this.paths.add(new FileAttribute(entry));
+                    }
                 }
             }
         }
         return this.paths;
     }
 
-    public static List<FileAttribute> dirScanning(Path path) throws IOException {
-        RecursiveScanner scanner = new RecursiveScanner();
-        return scanner.walk(path);
-    }
-
-    public static List<FileAttribute> dirScanning(Path path, Ignorer ignorer) throws IOException {
-        RecursiveScanner scanner = new RecursiveScanner(ignorer);
-        return scanner.walk(path);
+    public static List<FileAttribute> dirScanning(Path path, Optional<Ignorer> ignorer, Optional<Path> rootPath) throws IOException {
+        RecursiveScanner scanner = ignorer
+                .map(RecursiveScanner::new)
+                .orElseGet(RecursiveScanner::new);
+        return scanner.walk(path, rootPath);
     }
 
 }
