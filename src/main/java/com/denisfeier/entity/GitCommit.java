@@ -47,7 +47,9 @@ final public class GitCommit {
 
         stringBuilder.append("commit:").append(this.commitID).append("\n");
 
-        stringBuilder.append("author:").append(this.email).append("\n");
+        stringBuilder.append("author:").append(this.author).append("\n");
+
+        stringBuilder.append("email:").append(this.email).append("\n");
 
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("E, MMM dd yyyy HH:mm:ss");
         String formattedDate = date.format(myFormatObj);
