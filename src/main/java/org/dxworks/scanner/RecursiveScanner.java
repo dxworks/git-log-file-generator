@@ -1,7 +1,7 @@
-package com.denisfeier.scanner;
+package org.dxworks.scanner;
 
-import com.denisfeier.entity.FileAttribute;
-import com.denisfeier.ignorer.Ignorer;
+import org.dxworks.entity.FileAttribute;
+import org.dxworks.ignorer.Ignorer;
 
 import java.io.IOException;
 import java.nio.file.DirectoryStream;

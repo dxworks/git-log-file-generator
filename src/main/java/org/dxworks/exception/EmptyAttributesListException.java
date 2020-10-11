@@ -1,4 +1,4 @@
-package com.denisfeier.exception;
+package org.dxworks.exception;
 
 public class EmptyAttributesListException extends Exception {
     public EmptyAttributesListException(String s) {

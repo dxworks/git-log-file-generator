@@ -1,14 +1,13 @@
-package com.denisfeier.entity;
+package org.dxworks.entity;
 
 
-import com.denisfeier.exception.EmptyAttributesListException;
+import org.dxworks.exception.EmptyAttributesListException;
 import lombok.Data;
 import lombok.ToString;
 import org.apache.commons.lang3.RandomStringUtils;
 
 import java.nio.file.Path;
 import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 

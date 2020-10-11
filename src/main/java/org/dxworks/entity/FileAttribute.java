@@ -1,4 +1,4 @@
-package com.denisfeier.entity;
+package org.dxworks.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

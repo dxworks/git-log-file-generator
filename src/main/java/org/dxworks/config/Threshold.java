@@ -1,4 +1,4 @@
-package com.denisfeier.config;
+package org.dxworks.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

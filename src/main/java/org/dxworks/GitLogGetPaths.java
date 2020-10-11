@@ -1,17 +1,14 @@
-package com.denisfeier;
+package org.dxworks;
 
-import com.denisfeier.config.Config;
-import com.denisfeier.entity.FileAttribute;
-import com.denisfeier.entity.GitCommit;
-import com.denisfeier.gitLogBuilder.LogBuilder;
-import com.denisfeier.ignorer.Ignorer;
-import com.denisfeier.ignorer.IgnorerBuilder;
-import com.denisfeier.scanner.RecursiveScanner;
-import org.apache.commons.lang3.RandomStringUtils;
+import org.dxworks.config.Config;
+import org.dxworks.entity.FileAttribute;
+import org.dxworks.entity.GitCommit;
+import org.dxworks.gitLogBuilder.LogBuilder;
+import org.dxworks.ignorer.Ignorer;
+import org.dxworks.ignorer.IgnorerBuilder;
+import org.dxworks.scanner.RecursiveScanner;
 
-import java.io.IOException;
 import java.nio.file.Path;
-import java.time.LocalTime;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;

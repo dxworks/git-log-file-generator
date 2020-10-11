@@ -1,8 +1,7 @@
-package com.denisfeier.gitLogBuilder;
+package org.dxworks.gitLogBuilder;
 
-import com.denisfeier.entity.FileAttribute;
+import org.dxworks.entity.FileAttribute;
 
-import java.time.LocalTime;
 import java.time.ZoneOffset;
 import java.util.*;
 import java.util.stream.Collectors;
