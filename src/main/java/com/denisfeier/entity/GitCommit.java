@@ -1,6 +1,7 @@
 package com.denisfeier.entity;
 
 
+import com.denisfeier.exception.EmptyAttributesListException;
 import lombok.Data;
 import lombok.ToString;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -22,7 +23,11 @@ final public class GitCommit {
     private String message;
     private List<FileAttribute> fileAttributes;
 
-    public GitCommit(List<FileAttribute> fileAttributes) {
+    public GitCommit(List<FileAttribute> fileAttributes) throws EmptyAttributesListException {
+
+        if (fileAttributes.size() == 0) {
+            throw new EmptyAttributesListException("The list of attributes is empty");
+        }
 
         FileAttribute fileAttribute = fileAttributes.get(0);
 
@@ -32,9 +37,7 @@ final public class GitCommit {
 
         this.email = this.author + "@generated.com";
 
-        this.date = LocalDateTime.ofInstant(
-                fileAttribute.getCreationTime().toInstant(),
-                ZoneId.systemDefault());
+        this.date = fileAttribute.getCreationTime();
 
         this.message = "Generated";
 
