@@ -1,6 +1,6 @@
-#threshold:
-#  hours: 10
-#  minutes: 60
-#  seconds: 100
-#rootDir: "/home/denisu/IdeaProjects/GitLogGenerator"
-#
+threshold:
+  hours: 10
+  minutes: 60
+  seconds: 100
+rootDir: "/home/denisu/IdeaProjects/GitLogGenerator"
+
