@@ -11,6 +11,8 @@ import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.FileTime;
 import java.nio.file.attribute.UserPrincipal;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.Optional;
 
 @AllArgsConstructor
@@ -20,9 +22,9 @@ import java.util.Optional;
 public final class FileAttribute {
 
     private Path basePath;
-    private FileTime lastModifiedTime;
-    private FileTime lastAccessTime;
-    private FileTime creationTime;
+    private LocalDateTime lastModifiedTime;
+    private LocalDateTime lastAccessTime;
+    private LocalDateTime creationTime;
     private Long size;
     private Boolean isRegularFile;
     private Boolean isDirectory;
@@ -35,9 +37,31 @@ public final class FileAttribute {
     public FileAttribute(Path filePath) throws IOException {
         BasicFileAttributes attr = Files.readAttributes(filePath, BasicFileAttributes.class);
         this.basePath = filePath;
-        this.creationTime = attr.creationTime();
-        this.lastAccessTime = attr.lastAccessTime();
-        this.lastModifiedTime = attr.lastModifiedTime();
+
+        this.creationTime = LocalDateTime.ofInstant(
+                attr.creationTime().toInstant(),
+                ZoneId.systemDefault());
+
+        this.lastAccessTime = LocalDateTime.ofInstant(
+                attr.lastAccessTime().toInstant(),
+                ZoneId.systemDefault());
+
+        this.lastModifiedTime = LocalDateTime.ofInstant(
+                attr.lastModifiedTime().toInstant(),
+                ZoneId.systemDefault());
+
+        System.out.println(filePath);
+        System.out.println("Creation: " + attr.creationTime());
+        System.out.println("Access: " + attr.lastAccessTime());
+        System.out.println("Modified: " + attr.lastModifiedTime());
+
+        System.out.println("Creation: " + this.creationTime);
+        System.out.println("Access: " + this.lastAccessTime);
+        System.out.println("Modified: " + this.lastModifiedTime);
+
+        System.out.println(this.creationTime.equals(this.lastModifiedTime));
+        System.out.println(attr.creationTime().equals(attr.lastModifiedTime()) + "\n");
+
         this.isDirectory = attr.isDirectory();
         this.isOther = attr.isOther();
         this.isRegularFile = attr.isRegularFile();
@@ -51,9 +75,31 @@ public final class FileAttribute {
     public FileAttribute(Path filePath, Path fileRelativePath) throws IOException {
         BasicFileAttributes attr = Files.readAttributes(filePath, BasicFileAttributes.class);
         this.basePath = filePath;
-        this.creationTime = attr.creationTime();
-        this.lastAccessTime = attr.lastAccessTime();
-        this.lastModifiedTime = attr.lastModifiedTime();
+
+        this.creationTime = LocalDateTime.ofInstant(
+                attr.creationTime().toInstant(),
+                ZoneId.systemDefault());
+
+        this.lastAccessTime = LocalDateTime.ofInstant(
+                attr.lastAccessTime().toInstant(),
+                ZoneId.systemDefault());
+
+        this.lastModifiedTime = LocalDateTime.ofInstant(
+                attr.lastModifiedTime().toInstant(),
+                ZoneId.systemDefault());
+
+        System.out.println(filePath);
+        System.out.println("Creation: " + attr.creationTime());
+        System.out.println("Access: " + attr.lastAccessTime());
+        System.out.println("Modified: " + attr.lastModifiedTime());
+
+        System.out.println("Creation: " + this.creationTime);
+        System.out.println("Access: " + this.lastAccessTime);
+        System.out.println("Modified: " + this.lastModifiedTime);
+
+        System.out.println(this.creationTime.equals(this.lastModifiedTime));
+        System.out.println(attr.creationTime().equals(attr.lastModifiedTime()) + "\n");
+
         this.isDirectory = attr.isDirectory();
         this.isOther = attr.isOther();
         this.isRegularFile = attr.isRegularFile();
