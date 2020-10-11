@@ -3,9 +3,9 @@
 **/*.iml
 .idea/**
 target/**
-src/**
+src/main/resources/**
 .git/**
 
 
 # white listed
-! **/.idea/.gitignore
+# ! **/.idea/.gitignore
