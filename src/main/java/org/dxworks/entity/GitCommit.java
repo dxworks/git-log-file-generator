@@ -21,6 +21,7 @@ final public class GitCommit {
     private LocalDateTime date;
     private String message;
     private List<FileAttribute> fileAttributes;
+    private boolean isAdded;
 
     public GitCommit(List<FileAttribute> fileAttributes) throws EmptyAttributesListException {
 
@@ -41,6 +42,8 @@ final public class GitCommit {
         this.message = "Generated";
 
         this.fileAttributes = fileAttributes;
+
+        this.isAdded = false;
 
     }
 
@@ -75,7 +78,7 @@ final public class GitCommit {
             builder.append(":000000\t000000\t0000000\t")
                     .append(id)
                     .append("\t")
-                    .append("A")
+                    .append(this.isAdded ? "A" : "M")
                     .append("\t")
                     .append(pathNumstat.toString())
                     .append("\n");

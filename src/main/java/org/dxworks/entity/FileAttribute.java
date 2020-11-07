@@ -50,18 +50,6 @@ public final class FileAttribute {
                 attr.lastModifiedTime().toInstant(),
                 ZoneId.systemDefault());
 
-        System.out.println(filePath);
-        System.out.println("Creation: " + attr.creationTime());
-        System.out.println("Access: " + attr.lastAccessTime());
-        System.out.println("Modified: " + attr.lastModifiedTime());
-
-        System.out.println("Creation: " + this.creationTime);
-        System.out.println("Access: " + this.lastAccessTime);
-        System.out.println("Modified: " + this.lastModifiedTime);
-
-        System.out.println(this.creationTime.equals(this.lastModifiedTime));
-        System.out.println(attr.creationTime().equals(attr.lastModifiedTime()) + "\n");
-
         this.isDirectory = attr.isDirectory();
         this.isOther = attr.isOther();
         this.isRegularFile = attr.isRegularFile();
@@ -87,18 +75,6 @@ public final class FileAttribute {
         this.lastModifiedTime = LocalDateTime.ofInstant(
                 attr.lastModifiedTime().toInstant(),
                 ZoneId.systemDefault());
-
-        System.out.println(filePath);
-        System.out.println("Creation: " + attr.creationTime());
-        System.out.println("Access: " + attr.lastAccessTime());
-        System.out.println("Modified: " + attr.lastModifiedTime());
-
-        System.out.println("Creation: " + this.creationTime);
-        System.out.println("Access: " + this.lastAccessTime);
-        System.out.println("Modified: " + this.lastModifiedTime);
-
-        System.out.println(this.creationTime.equals(this.lastModifiedTime));
-        System.out.println(attr.creationTime().equals(attr.lastModifiedTime()) + "\n");
 
         this.isDirectory = attr.isDirectory();
         this.isOther = attr.isOther();
