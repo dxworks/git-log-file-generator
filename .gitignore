@@ -1,5 +1,8 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
 .idea
 target/
 src/main/resources/Licenta/
-
-# warafesa
