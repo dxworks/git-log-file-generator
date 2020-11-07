@@ -17,6 +17,11 @@ public class GitLogGetPaths {
 
     public static void main(String[] args) throws Exception {
 
+        System.out.println("projectPath: " + System.getProperty("projectPath"));
+        System.out.println("outputFile: " + System.getProperty("outputFile"));
+        System.out.println("fileConfig: " + System.getProperty("fileConfig"));
+        System.out.println("ignorer: " + System.getProperty("ignorer"));
+
         if (System.getProperty("projectPath", "").equals("")) {
             throw new NoProjectPathException("We couldn't find the path of your project");
         }

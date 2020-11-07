@@ -32,6 +32,7 @@ public class RecursiveScanner {
                 } else {
                     if (rootPath.isPresent()) {
                         Path relativizedPath = rootPath.get().relativize(entry);
+//                        System.out.println(relativizedPath);
                         if (this.ignorer.accept(relativizedPath.toString())) {
                             this.paths.add(new FileAttribute(entry, relativizedPath));
                         }

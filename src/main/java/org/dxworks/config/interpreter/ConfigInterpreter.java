@@ -9,7 +9,7 @@ import java.nio.file.Path;
 public class ConfigInterpreter {
 
     public static Config getFullConfig() throws IOException {
-        if (System.getProperty("fileConfig") != null) {
+        if (!System.getProperty("fileConfig", "").equals("")) {
             Path ymlConfigPath = Path.of(System.getProperty("fileConfig"));
             Config config = Config.createConfig(ymlConfigPath);
             return config;
