@@ -2,5 +2,5 @@ threshold:
   hours: 10
   minutes: 0
   seconds: 0
-rootDir: "/Users/denisfeier/Documents/git-log-file-generator"
+rootDir: "/Users/denisfeier/Documents/DockerApps/Project1"
 

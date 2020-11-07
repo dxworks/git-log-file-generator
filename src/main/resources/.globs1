@@ -5,6 +5,7 @@
 target/**
 src/main/java**
 *.git/**
+node_modules/**
 
 
 # white listed
