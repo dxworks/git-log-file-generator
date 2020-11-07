@@ -3,8 +3,8 @@
 **/*.iml
 .idea/**
 target/**
-src/main/resources/**
-.git/**
+src/main/java**
+*.git/**
 
 
 # white listed
