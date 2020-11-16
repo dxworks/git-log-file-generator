@@ -20,7 +20,7 @@ Here we have the config options and some examples.
         * outputFile(optional) - "Path to a file where we export the logs. (By default the output is STDOUT)"
         * fileConfig(optional) - "Path to a YML file. For the ease of use we can add all the configs in a YML file.",
 
-### Run examples
+## Run examples
 
 Run with all the configs from the command line.
 
@@ -40,7 +40,7 @@ Run with a config file.
 java -DprojectPath=<PROJECT_PATH> -DfileConfig=<CONFIG_FILE_PATH> -Dignorer=<IGNORER_FILE_PATH> -DoutputFile=<OUTPUT_FILE_PATH> -jar ./target/logGenerator-jar-with-dependencies.jar
 ```
 
-### YML Config File Example
+## YML Config File Example
 
 ```yaml
 threshold:
@@ -50,7 +50,7 @@ threshold:
 rootDir: "PATH TO YOUR ROOT DIR"
 ```
 
-### GLOBS Ignorer File Example (For a basic java app)
+## GLOBS Ignorer File Example (For a basic java app)
 
 ```txt
 # BLACK LISTED PATTERNS
@@ -65,7 +65,7 @@ src/main/resources/**
 
 ! src/main/java/**
 ```
-### GLOBS Ignorer File Example (For a basic node.js typescript app)
+## GLOBS Ignorer File Example (For a basic node.js typescript app)
 ```txt 
 node_modules/**
 .git/**
@@ -78,7 +78,22 @@ as unwanted. For more specific details on globs you can check
 the [MANUAL PAGE](https://man7.org/linux/man-pages/man7/glob.7.html) 
 or the [WIKI](https://en.wikipedia.org/wiki/Glob_(programming))
 
-### Output Example
+## Build And Running From A Docker Container
+
+Build command is pretty basic, just build the image from using the `Dockerfile` :
+
+```
+docker build .
+```
+
+After you build the image you can set some bind mounts for your the project dir, config file (if needed), 
+ignorer (if needed), and output file.
+
+```
+docker run -v <PROJECT_PATH>:/app/project -v <PATH_WHERE_THE_CONGIF_FILE_IS>:/app/config -e projectPath=/app/project -e fileConfig=/app/config/config.yml -e ignorer=/app/config/.globs -e output=/app/output d03ea64ccef3 
+```
+
+## Output Example
  
 Let's take a look of what we can get from a basic project. For this project I used the following globs:
 
