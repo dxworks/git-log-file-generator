@@ -1,6 +1,6 @@
 threshold:
-  hours: 10
+  hours: 0
   minutes: 0
   seconds: 0
-rootDir: "/Users/denisfeier/Documents/DockerApps/Project1"
+rootDir: "/Users/denisfeier/Documents/NodeShit/typescript-express-example"
 
