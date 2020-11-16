@@ -1,4 +1,4 @@
-package org.dxworks.ignorer;
+package org.dxworks.logGenerator.ignorer;
 
 import java.nio.file.PathMatcher;
 import java.nio.file.Paths;

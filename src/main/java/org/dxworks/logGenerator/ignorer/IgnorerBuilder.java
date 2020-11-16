@@ -1,4 +1,4 @@
-package org.dxworks.ignorer;
+package org.dxworks.logGenerator.ignorer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

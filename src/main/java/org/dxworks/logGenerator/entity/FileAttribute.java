@@ -1,4 +1,4 @@
-package org.dxworks.entity;
+package org.dxworks.logGenerator.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

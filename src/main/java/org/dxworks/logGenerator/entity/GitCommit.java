@@ -1,7 +1,7 @@
-package org.dxworks.entity;
+package org.dxworks.logGenerator.entity;
 
 
-import org.dxworks.exception.EmptyAttributesListException;
+import org.dxworks.logGenerator.exception.EmptyAttributesListException;
 import lombok.Data;
 import lombok.ToString;
 import org.apache.commons.lang3.RandomStringUtils;

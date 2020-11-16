@@ -1,7 +1,7 @@
-package org.dxworks.config.interpreter;
+package org.dxworks.logGenerator.config.interpreter;
 
-import org.dxworks.config.Config;
-import org.dxworks.config.Threshold;
+import org.dxworks.logGenerator.config.Config;
+import org.dxworks.logGenerator.config.Threshold;
 
 import java.io.IOException;
 import java.nio.file.Path;

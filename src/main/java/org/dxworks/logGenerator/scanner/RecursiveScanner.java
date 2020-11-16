@@ -1,7 +1,7 @@
-package org.dxworks.scanner;
+package org.dxworks.logGenerator.scanner;
 
-import org.dxworks.entity.FileAttribute;
-import org.dxworks.ignorer.Ignorer;
+import org.dxworks.logGenerator.entity.FileAttribute;
+import org.dxworks.logGenerator.ignorer.Ignorer;
 
 import java.io.IOException;
 import java.nio.file.DirectoryStream;

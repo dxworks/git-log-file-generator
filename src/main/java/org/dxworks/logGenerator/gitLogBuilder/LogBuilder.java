@@ -1,9 +1,9 @@
-package org.dxworks.gitLogBuilder;
+package org.dxworks.logGenerator.gitLogBuilder;
 
-import org.dxworks.config.Config;
-import org.dxworks.entity.FileAttribute;
-import org.dxworks.entity.GitCommit;
-import org.dxworks.exception.EmptyAttributesListException;
+import org.dxworks.logGenerator.config.Config;
+import org.dxworks.logGenerator.entity.FileAttribute;
+import org.dxworks.logGenerator.entity.GitCommit;
+import org.dxworks.logGenerator.exception.EmptyAttributesListException;
 
 import java.io.FileWriter;
 import java.io.IOException;

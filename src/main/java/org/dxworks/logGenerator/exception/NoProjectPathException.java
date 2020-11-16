@@ -1,4 +1,4 @@
-package org.dxworks.exception;
+package org.dxworks.logGenerator.exception;
 
 public class NoProjectPathException extends Exception {
     public NoProjectPathException(String s) {

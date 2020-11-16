@@ -17,7 +17,7 @@
                     <finalName>${jar.final.name}</finalName>
                     <archive>
                         <manifest>
-                            <mainClass>org.dxworks.GitLogGetPaths</mainClass>
+                            <mainClass>org.dxworks.logGenerator.GitLogGetPaths</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

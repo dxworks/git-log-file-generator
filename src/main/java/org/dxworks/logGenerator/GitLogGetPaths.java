@@ -1,13 +1,13 @@
-package org.dxworks;
+package org.dxworks.logGenerator;
 
-import org.dxworks.config.Config;
-import org.dxworks.config.interpreter.ConfigInterpreter;
-import org.dxworks.entity.FileAttribute;
-import org.dxworks.exception.NoProjectPathException;
-import org.dxworks.gitLogBuilder.LogBuilder;
-import org.dxworks.ignorer.Ignorer;
-import org.dxworks.ignorer.IgnorerBuilder;
-import org.dxworks.scanner.RecursiveScanner;
+import org.dxworks.logGenerator.config.Config;
+import org.dxworks.logGenerator.config.interpreter.ConfigInterpreter;
+import org.dxworks.logGenerator.entity.FileAttribute;
+import org.dxworks.logGenerator.exception.NoProjectPathException;
+import org.dxworks.logGenerator.gitLogBuilder.LogBuilder;
+import org.dxworks.logGenerator.ignorer.Ignorer;
+import org.dxworks.logGenerator.ignorer.IgnorerBuilder;
+import org.dxworks.logGenerator.scanner.RecursiveScanner;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
