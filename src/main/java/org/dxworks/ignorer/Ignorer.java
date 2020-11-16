@@ -1,9 +1,7 @@
 package org.dxworks.ignorer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
-import java.nio.file.Path;
 import java.nio.file.PathMatcher;
+import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -30,7 +28,7 @@ public class Ignorer {
 
     private boolean match(List<PathMatcher> globsMatcher, String path) {
         return globsMatcher.stream()
-                .map(glob -> glob.matches(Path.of(path)))
+                .map(glob -> glob.matches(Paths.get(path)))
                 .reduce(false, (aBoolean, aBoolean2) -> aBoolean || aBoolean2);
     }
 

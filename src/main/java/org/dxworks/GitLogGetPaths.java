@@ -10,6 +10,7 @@ import org.dxworks.ignorer.IgnorerBuilder;
 import org.dxworks.scanner.RecursiveScanner;
 
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.Optional;
 
@@ -32,7 +33,7 @@ public class GitLogGetPaths {
 
         List<FileAttribute> listOfFiles =
                 RecursiveScanner.dirScanning(
-                        Path.of(projectPath),
+                        Paths.get(projectPath),
                         getIgnorer(),
                         relativeTo(config));
 
@@ -42,7 +43,7 @@ public class GitLogGetPaths {
             LogBuilder.showCommits(listOfFiles, config, true);
             LogBuilder.showCommits(listOfModified, config, false);
         } else {
-            Path outputPath = Path.of(System.getProperty("outputFile"));
+            Path outputPath = Paths.get(System.getProperty("outputFile"));
             LogBuilder.outputInFile(outputPath, listOfFiles, config, true);
             LogBuilder.outputInFile(outputPath, listOfModified, config, false);
         }
@@ -54,7 +55,7 @@ public class GitLogGetPaths {
             return Optional.empty();
         } else {
             IgnorerBuilder builder = new IgnorerBuilder(
-                    Path.of(System.getProperty("ignorer")));
+                    Paths.get(System.getProperty("ignorer")));
 
             Ignorer ignorer = builder.compile();
 
@@ -64,7 +65,7 @@ public class GitLogGetPaths {
 
     static private Optional<Path> relativeTo(Config config) {
         return config.rootDir != null ?
-                Optional.of(Path.of(config.rootDir))
+                Optional.of(Paths.get(config.rootDir))
                 :
                 Optional.empty();
     }

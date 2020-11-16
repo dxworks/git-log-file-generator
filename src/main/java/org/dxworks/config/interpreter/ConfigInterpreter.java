@@ -5,12 +5,13 @@ import org.dxworks.config.Threshold;
 
 import java.io.IOException;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class ConfigInterpreter {
 
     public static Config getFullConfig() throws IOException {
         if (!System.getProperty("fileConfig", "").equals("")) {
-            Path ymlConfigPath = Path.of(System.getProperty("fileConfig"));
+            Path ymlConfigPath = Paths.get(System.getProperty("fileConfig"));
             Config config = Config.createConfig(ymlConfigPath);
             return config;
         } else {
