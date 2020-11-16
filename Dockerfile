@@ -14,4 +14,4 @@ ENV ignorer=""
 
 ENV outputFile=""
 
-ENTRYPOINT java -DprojectPath=$projectPath -DfileConfig=$fileConfig -Dignorer=$ignorer -DoutputFile=$outputFile -jar ./target/GitLogGenerator-1.0-SNAPSHOT-jar-with-dependencies.jar
+ENTRYPOINT java -DprojectPath=$projectPath -DfileConfig=$fileConfig -Dignorer=$ignorer -DoutputFile=$outputFile -jar ./target/logGenerator-jar-with-dependencies.jar
