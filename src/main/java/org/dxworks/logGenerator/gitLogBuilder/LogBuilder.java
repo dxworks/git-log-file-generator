@@ -105,9 +105,8 @@ public class LogBuilder {
         }
     }
 
-    public static void outputInFile(Path outputPath, List<FileAttribute> attributeList, Config config, boolean added) throws EmptyAttributesListException, IOException {
-        if (attributeList.size() != 0) {
-            List<GitCommit> gitCommitsForJustAdded = LogBuilder.createGitCommitLogs(attributeList, config, added);
+    public static void outputInFile(Path outputPath, List<GitCommit> gitCommitsForJustAdded) throws EmptyAttributesListException, IOException {
+        if (gitCommitsForJustAdded.size() != 0) {
 
             FileWriter myWriter = new FileWriter(outputPath.toFile());
             gitCommitsForJustAdded.forEach(gitCommit -> {

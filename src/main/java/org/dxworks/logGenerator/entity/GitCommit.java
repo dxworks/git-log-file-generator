@@ -8,6 +8,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 
 import java.nio.file.Path;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
@@ -56,7 +57,7 @@ final public class GitCommit {
 
         stringBuilder.append("email:").append(this.email).append("\n");
 
-        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("E, MMM dd yyyy HH:mm:ss");
+        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("E, dd MMM yyyy HH:mm:ss +0000");
         String formattedDate = date.format(myFormatObj);
         stringBuilder.append("date:").append(formattedDate).append("\n");
 

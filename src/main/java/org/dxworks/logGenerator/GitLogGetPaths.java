@@ -3,6 +3,7 @@ package org.dxworks.logGenerator;
 import org.dxworks.logGenerator.config.Config;
 import org.dxworks.logGenerator.config.interpreter.ConfigInterpreter;
 import org.dxworks.logGenerator.entity.FileAttribute;
+import org.dxworks.logGenerator.entity.GitCommit;
 import org.dxworks.logGenerator.exception.NoProjectPathException;
 import org.dxworks.logGenerator.gitLogBuilder.LogBuilder;
 import org.dxworks.logGenerator.ignorer.Ignorer;
@@ -11,6 +12,8 @@ import org.dxworks.logGenerator.scanner.RecursiveScanner;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
@@ -44,8 +47,19 @@ public class GitLogGetPaths {
             LogBuilder.showCommits(listOfModified, config, false);
         } else {
             Path outputPath = Paths.get(System.getProperty("outputFile"));
-            LogBuilder.outputInFile(outputPath, listOfFiles, config, true);
-            LogBuilder.outputInFile(outputPath, listOfModified, config, false);
+
+            List<GitCommit> gitCommitsAdded = LogBuilder.createGitCommitLogs(listOfFiles, config, true);
+
+            List<GitCommit> gitCommitsModified = LogBuilder.createGitCommitLogs(listOfModified, config, false);
+
+            List<GitCommit> allCommits = new LinkedList<>();
+
+            allCommits.addAll(gitCommitsAdded);
+            allCommits.addAll(gitCommitsModified);
+
+            allCommits.sort((o1, o2) -> o2.getDate().compareTo(o1.getDate()));
+
+            LogBuilder.outputInFile(outputPath, allCommits);
         }
     }
 
