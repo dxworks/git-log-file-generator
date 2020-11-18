@@ -31,13 +31,13 @@ java -DprojectPath=<PROJECT_PATH> \
      -Dconfig.threshold.hours=<POSITIVE_INTEGER> \
      -Dconfig.threshold.minutes=<POSITIVE_INTEGER> \
      -Dconfig.threshold.seconds=<POSITIVE_INTEGER> \
-     -jar ./target/logGenerator-jar-with-dependencies.jar
+     -jar logGenerator.jar
 ```
 
 Run with a config file.
 
 ```
-java -DprojectPath=<PROJECT_PATH> -DfileConfig=<CONFIG_FILE_PATH> -Dignorer=<IGNORER_FILE_PATH> -DoutputFile=<OUTPUT_FILE_PATH> -jar ./target/logGenerator-jar-with-dependencies.jar
+java -DprojectPath=<PROJECT_PATH> -DfileConfig=<CONFIG_FILE_PATH> -Dignorer=<IGNORER_FILE_PATH> -DoutputFile=<OUTPUT_FILE_PATH> -jar logGenerator.jar
 ```
 
 ## YML Config File Example
