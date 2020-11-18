@@ -1,108 +1,130 @@
-commit:siUQNsd5fXwnga7Oc8efrVZ3iZj5w3uPKyV7QoCdjp
+commit:VucdC4yNIEV6FRuDPMfYewCOKP7IOUoIVoeUpZ1qVb
 author:denisfeier
 email:denisfeier@generated.com
-date:Wed, 18 Nov 2020 13:54:18 +0000
+date:Wed, 18 Nov 2020 14:08:11 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	GG2apLO	A	/Users/denisfeier/Documents/git-log-file-generator/target/GitLogGenerator-1.0-SNAPSHOT-jar-with-dependencies.jar
-18729	0	/Users/denisfeier/Documents/git-log-file-generator/target/GitLogGenerator-1.0-SNAPSHOT-jar-with-dependencies.jar
-commit:PhMjnTXsADj76uj1wsWNnPAjIa3ILBvRomuGIXhwmd
+:000000	000000	0000000	9ZI2aFu	A	target/logGenerator.jar
+18722	0	target/logGenerator.jar
+commit:9dl4kGsccQdrjtmkQ3HAk4wV5UD2FHGrIu5TafvgpZ
 author:denisfeier
 email:denisfeier@generated.com
-date:Wed, 18 Nov 2020 13:54:18 +0000
+date:Wed, 18 Nov 2020 14:08:11 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	bC5oghc	M	/Users/denisfeier/Documents/git-log-file-generator/target/GitLogGenerator-1.0-SNAPSHOT-jar-with-dependencies.jar
-18729	0	/Users/denisfeier/Documents/git-log-file-generator/target/GitLogGenerator-1.0-SNAPSHOT-jar-with-dependencies.jar
-commit:tLRFSmFFMriED7mgmI9DvEikgrptW5H9lBVOVOGp2Q
+:000000	000000	0000000	1JomNU4	M	target/logGenerator.jar
+18722	0	target/logGenerator.jar
+commit:BO5lxKHFr9xwMldf8aplt4D3Q4Xm7wBwVj3RwuvBL2
 author:denisfeier
 email:denisfeier@generated.com
-date:Wed, 18 Nov 2020 13:54:17 +0000
+date:Wed, 18 Nov 2020 14:08:10 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	DNsHOYH	A	/Users/denisfeier/Documents/git-log-file-generator/target/maven-archiver/pom.properties
-:000000	000000	0000000	mdQVrj7	A	/Users/denisfeier/Documents/git-log-file-generator/target/GitLogGenerator-1.0-SNAPSHOT.jar
-5	0	/Users/denisfeier/Documents/git-log-file-generator/target/maven-archiver/pom.properties
-240	0	/Users/denisfeier/Documents/git-log-file-generator/target/GitLogGenerator-1.0-SNAPSHOT.jar
-commit:XvcvojA5O2WiSHSVIJUmmQjiHeE36WpRZBBgWLallt
+:000000	000000	0000000	ShzJEsG	A	target/classes/org/dxworks/logGenerator/entity/FileAttribute.class
+:000000	000000	0000000	afUuf5Z	A	target/classes/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.class
+:000000	000000	0000000	Y1Hyhcj	A	target/classes/org/dxworks/logGenerator/config/Config.class
+:000000	000000	0000000	Ao3pBIQ	A	target/classes/org/dxworks/logGenerator/config/Threshold.class
+:000000	000000	0000000	9RxJgst	A	target/classes/org/dxworks/logGenerator/ignorer/Ignorer.class
+:000000	000000	0000000	fiN06vF	A	target/classes/org/dxworks/logGenerator/ignorer/IgnorerBuilder.class
+:000000	000000	0000000	MLQn3Jp	A	target/classes/org/dxworks/logGenerator/entity/GitCommit.class
+:000000	000000	0000000	dCPYdho	A	target/classes/org/dxworks/logGenerator/exception/EmptyAttributesListException.class
+:000000	000000	0000000	SQHu69p	A	target/classes/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.class
+:000000	000000	0000000	vF8Zlue	A	target/classes/org/dxworks/logGenerator/exception/NoProjectPathException.class
+:000000	000000	0000000	HU6TewV	A	target/classes/org/dxworks/logGenerator/GitLogGetPaths.class
+:000000	000000	0000000	8xSd8rn	A	target/classes/org/dxworks/logGenerator/scanner/RecursiveScanner.class
+:000000	000000	0000000	POq4meS	A	target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+:000000	000000	0000000	W0UYPwi	A	target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+:000000	000000	0000000	4hIcrvz	A	target/maven-archiver/pom.properties
+:000000	000000	0000000	n2ll643	A	target/GitLogGenerator-1.0-SNAPSHOT.jar
+60	0	target/classes/org/dxworks/logGenerator/entity/FileAttribute.class
+16	0	target/classes/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.class
+23	0	target/classes/org/dxworks/logGenerator/config/Config.class
+21	0	target/classes/org/dxworks/logGenerator/config/Threshold.class
+21	0	target/classes/org/dxworks/logGenerator/ignorer/Ignorer.class
+52	0	target/classes/org/dxworks/logGenerator/ignorer/IgnorerBuilder.class
+47	0	target/classes/org/dxworks/logGenerator/entity/GitCommit.class
+8	0	target/classes/org/dxworks/logGenerator/exception/EmptyAttributesListException.class
+58	0	target/classes/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.class
+5	0	target/classes/org/dxworks/logGenerator/exception/NoProjectPathException.class
+42	0	target/classes/org/dxworks/logGenerator/GitLogGetPaths.class
+28	0	target/classes/org/dxworks/logGenerator/scanner/RecursiveScanner.class
+12	0	target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+12	0	target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+5	0	target/maven-archiver/pom.properties
+235	0	target/GitLogGenerator-1.0-SNAPSHOT.jar
+commit:rgVOwL9CMBzn7U4lAiazAuGYgO1M0oXzDRO0nRuVCz
 author:denisfeier
 email:denisfeier@generated.com
-date:Wed, 18 Nov 2020 13:54:16 +0000
+date:Wed, 18 Nov 2020 14:08:08 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	rea3dAd	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/entity/FileAttribute.class
-:000000	000000	0000000	UQgRKqs	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.class
-:000000	000000	0000000	AJUQhJE	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/config/Config.class
-:000000	000000	0000000	BH8KuL0	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/config/Threshold.class
-:000000	000000	0000000	BBW7jyl	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/ignorer/Ignorer.class
-:000000	000000	0000000	YneOn1U	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/ignorer/IgnorerBuilder.class
-:000000	000000	0000000	lO1WXOQ	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/entity/GitCommit.class
-:000000	000000	0000000	nxUfDdu	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/exception/EmptyAttributesListException.class
-:000000	000000	0000000	s3iljYY	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.class
-:000000	000000	0000000	LVhxydM	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/exception/NoProjectPathException.class
-:000000	000000	0000000	SzfLfM5	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/GitLogGetPaths.class
-:000000	000000	0000000	8xzOwIl	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/scanner/RecursiveScanner.class
-:000000	000000	0000000	5PJHVEn	A	/Users/denisfeier/Documents/git-log-file-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
-:000000	000000	0000000	zrebZs6	A	/Users/denisfeier/Documents/git-log-file-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
-60	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/entity/FileAttribute.class
-16	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.class
-23	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/config/Config.class
-21	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/config/Threshold.class
-21	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/ignorer/Ignorer.class
-52	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/ignorer/IgnorerBuilder.class
-47	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/entity/GitCommit.class
-8	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/exception/EmptyAttributesListException.class
-58	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.class
-5	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/exception/NoProjectPathException.class
-42	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/GitLogGetPaths.class
-28	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/org/dxworks/logGenerator/scanner/RecursiveScanner.class
-12	0	/Users/denisfeier/Documents/git-log-file-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
-12	0	/Users/denisfeier/Documents/git-log-file-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
-commit:prIt8dcmH5e7fD60wrn4z9pxJcpTBM65he7KrH1lce
+:000000	000000	0000000	ByTSj7g	A	target/classes/.globs1
+:000000	000000	0000000	iCKHYO6	A	target/classes/output
+:000000	000000	0000000	9msSVtm	A	target/classes/config.yml
+3	0	target/classes/.globs1
+1386	0	target/classes/output
+6	0	target/classes/config.yml
+commit:myLUU5SvcSA2433aKuzQmEHWvF9hgsvXJr3Ailsgwv
 author:denisfeier
 email:denisfeier@generated.com
-date:Wed, 18 Nov 2020 13:54:14 +0000
+date:Wed, 18 Nov 2020 13:58:03 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	WZGQHgw	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/.globs1
-:000000	000000	0000000	L4a12ar	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/output
-:000000	000000	0000000	fJ6YDwB	A	/Users/denisfeier/Documents/git-log-file-generator/target/classes/config.yml
-3	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/.globs1
-1366	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/output
-6	0	/Users/denisfeier/Documents/git-log-file-generator/target/classes/config.yml
-commit:hI8WF52PDYy5SE3OGACRdj98FbS49cw9thCPGelj5y
+:000000	000000	0000000	kvkbygA	A	.git/refs/remotes/origin2/master
+:000000	000000	0000000	ln0rAb7	A	.git/logs/refs/remotes/origin2/master
+1	0	.git/refs/remotes/origin2/master
+5	0	.git/logs/refs/remotes/origin2/master
+commit:r4oaEj95b469Y8zRWu1tCMfnPZmTucRRCJDcvi7XEH
 author:denisfeier
 email:denisfeier@generated.com
-date:Wed, 18 Nov 2020 13:42:37 +0000
+date:Wed, 18 Nov 2020 13:57:47 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	uqZZ5Db	A	/Users/denisfeier/Documents/git-log-file-generator/logFile.git
-801	0	/Users/denisfeier/Documents/git-log-file-generator/logFile.git
-commit:WuXShw5XR43Zwnjd8wJsdgFvW73JbhjbX9u4z4CA03
+:000000	000000	0000000	diDoShZ	A	.git/objects/fe/ede4334fd3cf5cfe044c47bb993944725c189d
+:000000	000000	0000000	7JmmQOQ	A	.git/objects/f2/b16bce107fb034f62780fa4d07fa78b9ffbc75
+:000000	000000	0000000	POvQ9ZY	A	.git/objects/70/203ce51b4dc91fe862e902dbae9b6618087fb5
+:000000	000000	0000000	hBbsOf3	A	.git/objects/6c/f0e61a0bdfa628dd6fc5ab7d8ef0b234516d98
+:000000	000000	0000000	tD3Se9L	A	.git/index
+:000000	000000	0000000	VhvOtV1	A	.git/COMMIT_EDITMSG
+:000000	000000	0000000	Pr8kl3s	A	.git/objects/18/2937ed3c4333cbfcdf4e8d8e06f5dea65186db
+:000000	000000	0000000	lDC9dTK	A	.git/refs/heads/master
+:000000	000000	0000000	R3Xp53O	A	.git/logs/HEAD
+:000000	000000	0000000	CkJYVfK	A	.git/logs/refs/heads/master
+1	0	.git/objects/fe/ede4334fd3cf5cfe044c47bb993944725c189d
+1	0	.git/objects/f2/b16bce107fb034f62780fa4d07fa78b9ffbc75
+1	0	.git/objects/70/203ce51b4dc91fe862e902dbae9b6618087fb5
+2	0	.git/objects/6c/f0e61a0bdfa628dd6fc5ab7d8ef0b234516d98
+21	0	.git/index
+1	0	.git/COMMIT_EDITMSG
+1	0	.git/objects/18/2937ed3c4333cbfcdf4e8d8e06f5dea65186db
+1	0	.git/refs/heads/master
+24	0	.git/logs/HEAD
+24	0	.git/logs/refs/heads/master
+commit:kE6sJbaHBYvzONmstF61poOQbjRZG2LNvqSoUZPwMO
 author:denisfeier
 email:denisfeier@generated.com
-date:Wed, 18 Nov 2020 13:33:04 +0000
+date:Wed, 18 Nov 2020 13:57:35 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	HdfsgR4	A	/Users/denisfeier/Documents/git-log-file-generator/.git/refs/remotes/origin2/master
-:000000	000000	0000000	FBVbQYA	A	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/remotes/origin2/master
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/refs/remotes/origin2/master
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/remotes/origin2/master
-commit:o3Qu2Ev10HszG3BolJTLy5SGIVcf5Rh5dLMWe87epe
+:000000	000000	0000000	Go2WGM7	A	.git/objects/9d/500f42db2df903c52f89a5147349a839dfd468
+:000000	000000	0000000	cDDNWU9	A	.git/objects/24/f484bd484675f32bdd708bc167c93188cea236
+1	0	.git/objects/9d/500f42db2df903c52f89a5147349a839dfd468
+62	0	.git/objects/24/f484bd484675f32bdd708bc167c93188cea236
+commit:fup86klfhUvVCSamDCSBqkNP6EV7IJAX8JMWa2LtPh
 author:denisfeier
 email:denisfeier@generated.com
 date:Wed, 18 Nov 2020 13:32:42 +0000
@@ -110,39 +132,29 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	jawYFba	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/78/2d2569365f5c4d2525631e4275300cd4e1b2cd
-:000000	000000	0000000	hFPfniG	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/8d/938a6b49cad55309a6b4d839c6815548f657ce
-:000000	000000	0000000	WqAFH0E	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/60/e017b7a02b3676362010888ebe4304420a8a3c
-:000000	000000	0000000	WXjcb5Z	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/db/06dfeeaa3f702da7adb535f995dba840096647
-:000000	000000	0000000	7YjbwnB	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/73/15e49babf441a4400ce8d818df638175066131
-:000000	000000	0000000	HT6Pr7F	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5d/d5ef6f08e1e15de2ac9ccdcfef8b65f24d4b36
-:000000	000000	0000000	X99dJ45	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3e/6d3691131c2d989bd392c7919cad1e5bcd5b0c
-:000000	000000	0000000	rfMMche	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/83/6424e17be24cfba9d0c9514a859d6dd22d201b
-:000000	000000	0000000	C0ErdvU	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/38/02c37ea0c70e46d173d77760634c7df995c1cd
-:000000	000000	0000000	QKa6Ex8	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/16/f61cf3963faeac98dbe53161c8187affa69618
-:000000	000000	0000000	ZqseU7z	A	/Users/denisfeier/Documents/git-log-file-generator/.git/index
-:000000	000000	0000000	XYH0yqP	A	/Users/denisfeier/Documents/git-log-file-generator/.git/COMMIT_EDITMSG
-:000000	000000	0000000	POKLGCT	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ff/82a953e5cfc3e73e54316e2bd4af2dd5da2603
-:000000	000000	0000000	BjeG9sm	A	/Users/denisfeier/Documents/git-log-file-generator/.git/refs/heads/master
-:000000	000000	0000000	vShDLnH	A	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/HEAD
-:000000	000000	0000000	Ouxh4hG	A	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/heads/master
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/78/2d2569365f5c4d2525631e4275300cd4e1b2cd
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/8d/938a6b49cad55309a6b4d839c6815548f657ce
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/60/e017b7a02b3676362010888ebe4304420a8a3c
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/db/06dfeeaa3f702da7adb535f995dba840096647
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/73/15e49babf441a4400ce8d818df638175066131
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5d/d5ef6f08e1e15de2ac9ccdcfef8b65f24d4b36
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3e/6d3691131c2d989bd392c7919cad1e5bcd5b0c
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/83/6424e17be24cfba9d0c9514a859d6dd22d201b
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/38/02c37ea0c70e46d173d77760634c7df995c1cd
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/16/f61cf3963faeac98dbe53161c8187affa69618
-22	0	/Users/denisfeier/Documents/git-log-file-generator/.git/index
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/COMMIT_EDITMSG
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ff/82a953e5cfc3e73e54316e2bd4af2dd5da2603
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/refs/heads/master
-23	0	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/HEAD
-23	0	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/heads/master
-commit:NdpZ3HEgIGZiuG9o3OfnWhrXEE5f8lUhWleqFrYLtN
+:000000	000000	0000000	qHQKPRp	A	.git/objects/78/2d2569365f5c4d2525631e4275300cd4e1b2cd
+:000000	000000	0000000	gRqBlte	A	.git/objects/8d/938a6b49cad55309a6b4d839c6815548f657ce
+:000000	000000	0000000	BHt9hYu	A	.git/objects/60/e017b7a02b3676362010888ebe4304420a8a3c
+:000000	000000	0000000	PxokPOm	A	.git/objects/db/06dfeeaa3f702da7adb535f995dba840096647
+:000000	000000	0000000	Z8s21b3	A	.git/objects/73/15e49babf441a4400ce8d818df638175066131
+:000000	000000	0000000	tNR8t2u	A	.git/objects/5d/d5ef6f08e1e15de2ac9ccdcfef8b65f24d4b36
+:000000	000000	0000000	YLJ7x9w	A	.git/objects/3e/6d3691131c2d989bd392c7919cad1e5bcd5b0c
+:000000	000000	0000000	UEtWaQM	A	.git/objects/83/6424e17be24cfba9d0c9514a859d6dd22d201b
+:000000	000000	0000000	L6btZck	A	.git/objects/38/02c37ea0c70e46d173d77760634c7df995c1cd
+:000000	000000	0000000	Kaqbcgf	A	.git/objects/16/f61cf3963faeac98dbe53161c8187affa69618
+:000000	000000	0000000	XoumyAl	A	.git/objects/ff/82a953e5cfc3e73e54316e2bd4af2dd5da2603
+1	0	.git/objects/78/2d2569365f5c4d2525631e4275300cd4e1b2cd
+1	0	.git/objects/8d/938a6b49cad55309a6b4d839c6815548f657ce
+2	0	.git/objects/60/e017b7a02b3676362010888ebe4304420a8a3c
+1	0	.git/objects/db/06dfeeaa3f702da7adb535f995dba840096647
+1	0	.git/objects/73/15e49babf441a4400ce8d818df638175066131
+1	0	.git/objects/5d/d5ef6f08e1e15de2ac9ccdcfef8b65f24d4b36
+1	0	.git/objects/3e/6d3691131c2d989bd392c7919cad1e5bcd5b0c
+2	0	.git/objects/83/6424e17be24cfba9d0c9514a859d6dd22d201b
+1	0	.git/objects/38/02c37ea0c70e46d173d77760634c7df995c1cd
+3	0	.git/objects/16/f61cf3963faeac98dbe53161c8187affa69618
+1	0	.git/objects/ff/82a953e5cfc3e73e54316e2bd4af2dd5da2603
+commit:MUd4d3eEPmRh0WJOu0lCls6OtmJyjVwnj1JVAg0LGQ
 author:denisfeier
 email:denisfeier@generated.com
 date:Wed, 18 Nov 2020 13:32:32 +0000
@@ -150,15 +162,15 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	aoMdwTv	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c4/22ed6119cfae1c3240f3caf794b30deeb254b5
-:000000	000000	0000000	MuXlr8q	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d2/5d6707cf46cf7f8d22e72a065dbc6e71884f9c
-:000000	000000	0000000	7rM2gqd	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/dd/516bf7c5eb0fbd73338ff1ae9818c7e159ce30
-:000000	000000	0000000	HO1tKbl	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e1/d159cb397dbeca5e0f9885326d0c0a616367c8
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c4/22ed6119cfae1c3240f3caf794b30deeb254b5
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d2/5d6707cf46cf7f8d22e72a065dbc6e71884f9c
-12	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/dd/516bf7c5eb0fbd73338ff1ae9818c7e159ce30
-68	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e1/d159cb397dbeca5e0f9885326d0c0a616367c8
-commit:93ziXU2TcbGIigTpCXMKbOicASVECpqlHUWPwManne
+:000000	000000	0000000	g7ogzZc	A	.git/objects/c4/22ed6119cfae1c3240f3caf794b30deeb254b5
+:000000	000000	0000000	OP2D5gy	A	.git/objects/d2/5d6707cf46cf7f8d22e72a065dbc6e71884f9c
+:000000	000000	0000000	Ir9kprO	A	.git/objects/dd/516bf7c5eb0fbd73338ff1ae9818c7e159ce30
+:000000	000000	0000000	p48d69G	A	.git/objects/e1/d159cb397dbeca5e0f9885326d0c0a616367c8
+2	0	.git/objects/c4/22ed6119cfae1c3240f3caf794b30deeb254b5
+4	0	.git/objects/d2/5d6707cf46cf7f8d22e72a065dbc6e71884f9c
+12	0	.git/objects/dd/516bf7c5eb0fbd73338ff1ae9818c7e159ce30
+68	0	.git/objects/e1/d159cb397dbeca5e0f9885326d0c0a616367c8
+commit:WuocjU1NLj5B4Z9iaqIXx5Liw9XJMXddCDs9PWeikG
 author:denisfeier
 email:denisfeier@generated.com
 date:Wed, 18 Nov 2020 13:05:19 +0000
@@ -166,9 +178,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	cFUdr1T	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/output
-1366	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/output
-commit:sn1Qqg1rBYYhv0mVBRhEGqei338YprclJGZCkGaPeV
+:000000	000000	0000000	5cwJQ25	A	src/main/resources/output
+1386	0	src/main/resources/output
+commit:15HEn5o54B1fFZEcDA2Nb66dFrJlBkJgg9XoKPcb2f
 author:denisfeier
 email:denisfeier@generated.com
 date:Wed, 18 Nov 2020 13:05:19 +0000
@@ -176,9 +188,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	NR8FxLh	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/output
-1366	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/output
-commit:5CeImVKzYr0DM1tMgg3SORmhiVQbxtv1z4mf6TnQs1
+:000000	000000	0000000	k28OwVi	M	src/main/resources/output
+1386	0	src/main/resources/output
+commit:UYiAs3LJfBM3yuAkAVxMtL8SMmj7VBXjKpo48JoLJI
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 23:40:18 +0000
@@ -186,11 +198,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	87q8GUH	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d4/ae0f3df559b15890f0bed3a9cf040d92636db1
-:000000	000000	0000000	gRCRfqJ	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f8/c78d0e65e0389b194bea3efc141d4cb750378a
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d4/ae0f3df559b15890f0bed3a9cf040d92636db1
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f8/c78d0e65e0389b194bea3efc141d4cb750378a
-commit:mN2m40p2l4q3MZ8aXBoLTOLgsDvkdZlymzrQC4lAcH
+:000000	000000	0000000	3oksadT	A	.git/objects/d4/ae0f3df559b15890f0bed3a9cf040d92636db1
+:000000	000000	0000000	2TMtK8L	A	.git/objects/f8/c78d0e65e0389b194bea3efc141d4cb750378a
+3	0	.git/objects/d4/ae0f3df559b15890f0bed3a9cf040d92636db1
+2	0	.git/objects/f8/c78d0e65e0389b194bea3efc141d4cb750378a
+commit:NZwM5nL4C4ychdYTIxAEC4plWVtMVcfMtCQsotRTKS
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 23:39:59 +0000
@@ -198,9 +210,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	u0IwSTZ	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/65/33cc3a19013f4a8bc3f2e1917dd2a1b7c7bb49
-12	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/65/33cc3a19013f4a8bc3f2e1917dd2a1b7c7bb49
-commit:RFCMTFFpKUax7IjxqpBZM60DrMtVC9ESVimoGNwRHu
+:000000	000000	0000000	MJhfRqz	A	.git/objects/65/33cc3a19013f4a8bc3f2e1917dd2a1b7c7bb49
+12	0	.git/objects/65/33cc3a19013f4a8bc3f2e1917dd2a1b7c7bb49
+commit:KTN7LNMMoZSuTGW31kBAjVWebbDezwCmHKjsfViuMR
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 23:37:00 +0000
@@ -208,9 +220,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	ZnBGBnh	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f1/a81baf8a292551ffef1d4ee3841456322fb3de
-15	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f1/a81baf8a292551ffef1d4ee3841456322fb3de
-commit:9QmF1LTGEZVNpTpPJ0Pc2u2EvyC5TkwtdjDxGlYzjc
+:000000	000000	0000000	WsduGqk	A	.git/objects/f1/a81baf8a292551ffef1d4ee3841456322fb3de
+15	0	.git/objects/f1/a81baf8a292551ffef1d4ee3841456322fb3de
+commit:FpMF8KIEr1F32m4coO83RWK077k9mQxTtGPN7x720C
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 23:11:45 +0000
@@ -218,17 +230,17 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	K1JR1J1	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7c/97a78833fc1fcb1a5615e42ffd88f976eeb332
-:000000	000000	0000000	vXylmHs	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/da/86b994f5a15d921f7f1ed826214ae027588b49
-:000000	000000	0000000	ZdWpFoC	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/01/2ad4840b8b19408081000a642348d62e511beb
-:000000	000000	0000000	vWOLwIs	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/09/3622fcdbff075ff59529029bae0117805ee0d6
-:000000	000000	0000000	4WeCIzH	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/49/0c4e95b89c214bb3106bc671b8a61d406aea86
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7c/97a78833fc1fcb1a5615e42ffd88f976eeb332
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/da/86b994f5a15d921f7f1ed826214ae027588b49
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/01/2ad4840b8b19408081000a642348d62e511beb
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/09/3622fcdbff075ff59529029bae0117805ee0d6
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/49/0c4e95b89c214bb3106bc671b8a61d406aea86
-commit:IO9sUqUgg51taGO0h2Xwv4eR2DnALMgtIYY7ZZcXfe
+:000000	000000	0000000	aRxbjct	A	.git/objects/7c/97a78833fc1fcb1a5615e42ffd88f976eeb332
+:000000	000000	0000000	eQ4lran	A	.git/objects/da/86b994f5a15d921f7f1ed826214ae027588b49
+:000000	000000	0000000	FrGAJ3M	A	.git/objects/01/2ad4840b8b19408081000a642348d62e511beb
+:000000	000000	0000000	WHPcYr5	A	.git/objects/09/3622fcdbff075ff59529029bae0117805ee0d6
+:000000	000000	0000000	D9hq5ru	A	.git/objects/49/0c4e95b89c214bb3106bc671b8a61d406aea86
+1	0	.git/objects/7c/97a78833fc1fcb1a5615e42ffd88f976eeb332
+2	0	.git/objects/da/86b994f5a15d921f7f1ed826214ae027588b49
+1	0	.git/objects/01/2ad4840b8b19408081000a642348d62e511beb
+2	0	.git/objects/09/3622fcdbff075ff59529029bae0117805ee0d6
+3	0	.git/objects/49/0c4e95b89c214bb3106bc671b8a61d406aea86
+commit:HCk8fcEo79M3HKQVvJuz1Y7RKxddzIRpGh6hZKf8cP
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 23:11:36 +0000
@@ -236,13 +248,13 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	YJGiMvk	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c7/bb79d97e6b780b3f31848d33f155dadce34c69
-:000000	000000	0000000	S7oybvd	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/62/c55334331bce853e455680cca4b2bd2663b4fc
-:000000	000000	0000000	ypb3ftb	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/df/7e76699a24a5e678dde7a213d41b2ad93f2eea
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c7/bb79d97e6b780b3f31848d33f155dadce34c69
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/62/c55334331bce853e455680cca4b2bd2663b4fc
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/df/7e76699a24a5e678dde7a213d41b2ad93f2eea
-commit:HWA1DXknCB6uCQSO1w89j7fwWum4dhj0UnZz4tCA0F
+:000000	000000	0000000	L8AHV0M	A	.git/objects/c7/bb79d97e6b780b3f31848d33f155dadce34c69
+:000000	000000	0000000	IDWbJ2s	A	.git/objects/62/c55334331bce853e455680cca4b2bd2663b4fc
+:000000	000000	0000000	L9OjAG1	A	.git/objects/df/7e76699a24a5e678dde7a213d41b2ad93f2eea
+1	0	.git/objects/c7/bb79d97e6b780b3f31848d33f155dadce34c69
+3	0	.git/objects/62/c55334331bce853e455680cca4b2bd2663b4fc
+1	0	.git/objects/df/7e76699a24a5e678dde7a213d41b2ad93f2eea
+commit:zYE2PNLFLeKq839TN4P7cpZhjQumvEa4Wz8dEm3IkU
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 23:11:26 +0000
@@ -250,11 +262,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	HbMD2hV	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d2/9fa175b513ba0c6a54c22cc532f711b647b4b2
-:000000	000000	0000000	khbL99o	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/56/84034930c460ef2e64d924a925c691a0667c68
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d2/9fa175b513ba0c6a54c22cc532f711b647b4b2
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/56/84034930c460ef2e64d924a925c691a0667c68
-commit:nGvXpyxAXCIjGyyS2uel9j4ZGSTMCJDkmqkeolOh3f
+:000000	000000	0000000	iAyJZ6t	A	.git/objects/d2/9fa175b513ba0c6a54c22cc532f711b647b4b2
+:000000	000000	0000000	KVkdRkK	A	.git/objects/56/84034930c460ef2e64d924a925c691a0667c68
+4	0	.git/objects/d2/9fa175b513ba0c6a54c22cc532f711b647b4b2
+2	0	.git/objects/56/84034930c460ef2e64d924a925c691a0667c68
+commit:29P6j3Yk5EayI54JD3NSZVRX0Tj2hSWXqty16TE7AR
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 23:11:15 +0000
@@ -262,9 +274,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	MYCHYK3	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3a/7b53bd19d2d9146473b5b778f2da876a48e9a3
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3a/7b53bd19d2d9146473b5b778f2da876a48e9a3
-commit:usmoecvda0dOWiwMp31m2o1OchtLA60i0iyEFfjB7b
+:000000	000000	0000000	2W9AytQ	A	.git/objects/3a/7b53bd19d2d9146473b5b778f2da876a48e9a3
+1	0	.git/objects/3a/7b53bd19d2d9146473b5b778f2da876a48e9a3
+commit:xGFVy5mzYSuptbMlsyYrwEP2y4E8Mzfah5JnPePw5e
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 23:11:06 +0000
@@ -272,11 +284,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	OwJEWS9	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ef/6c96cfa7c707ba108af0d74a7ec751a5f40747
-:000000	000000	0000000	XzcJclR	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bd/38c32e48717f10dae04870153f11ce3f928ac8
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ef/6c96cfa7c707ba108af0d74a7ec751a5f40747
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bd/38c32e48717f10dae04870153f11ce3f928ac8
-commit:FMSJSLLHScCZgPjwYg46nvmMXe88TlXihrwWv0XoBi
+:000000	000000	0000000	P9WAJYn	A	.git/objects/ef/6c96cfa7c707ba108af0d74a7ec751a5f40747
+:000000	000000	0000000	Wb4HspX	A	.git/objects/bd/38c32e48717f10dae04870153f11ce3f928ac8
+2	0	.git/objects/ef/6c96cfa7c707ba108af0d74a7ec751a5f40747
+3	0	.git/objects/bd/38c32e48717f10dae04870153f11ce3f928ac8
+commit:qFzNs0lmFL7iSu4WXD5wlnzEklkdcbrVu114gVHtNg
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 23:10:54 +0000
@@ -284,9 +296,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	06WrceN	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4a/82f714c947e6e4a381526458b547b15bf92758
-11	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4a/82f714c947e6e4a381526458b547b15bf92758
-commit:InwqbdsE4jVioBw5fWG54T54vqPSeCoAfPQdzTjEit
+:000000	000000	0000000	PeRMH8O	A	.git/objects/4a/82f714c947e6e4a381526458b547b15bf92758
+11	0	.git/objects/4a/82f714c947e6e4a381526458b547b15bf92758
+commit:3twzcaVGgN5Hzh7HSQPB2lsgPajGhQKyGO8UJN3YMR
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 22:08:52 +0000
@@ -294,37 +306,37 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	xP8XgNj	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/88/9d385e133e65970d6e142e17b98558feccac02
-:000000	000000	0000000	sUMLS0X	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f2/09fb927076db492b018bccddd7188fe7c2a93c
-:000000	000000	0000000	vFmNuEX	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e4/1bef3f6e7c7609f20e81d8cde4a5f7fffbf7fc
-:000000	000000	0000000	nuX1Von	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6b/3a5d7f1e1f55096a92fd1af984aa431882109a
-:000000	000000	0000000	0Gd9C69	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/94/0849fc6e096b1361e6d78fe99d666377b26407
-:000000	000000	0000000	eUImGo8	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d7/2b40d8692345030035fb7f1c9052fbe741ae8a
-:000000	000000	0000000	2kxKSEK	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/59/3500e3dfff920efa03be874d9cfb4ddf126af4
-:000000	000000	0000000	2oSj1XH	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4b/e23abd04ba302e198f053d1fc3b51e4c2aa8e1
-:000000	000000	0000000	TkK0CsP	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/92/a21788f969072733d390bfd91f2f9e1cb5fc43
-:000000	000000	0000000	XLMX0xg	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4e/8d85497503f611679912fda32eeaad169fae2c
-:000000	000000	0000000	v5pCCL7	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f5/9a09af21efe7315884264b2b93e53e359e3ca5
-:000000	000000	0000000	vVs0hil	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ac/56d1e3bc972c64fbe524d19c5936a1f3b281e7
-:000000	000000	0000000	GOG6ZY3	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/60/df7cf2200947df1331530cffad49777e5f77d5
-:000000	000000	0000000	gvUgcBh	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/1b/3e8c930415711dd68adc43973701e8c89614ed
-:000000	000000	0000000	gOe9THX	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d6/c4546c1111fc7536d8388dae658655d6ee9fa4
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/88/9d385e133e65970d6e142e17b98558feccac02
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f2/09fb927076db492b018bccddd7188fe7c2a93c
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e4/1bef3f6e7c7609f20e81d8cde4a5f7fffbf7fc
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6b/3a5d7f1e1f55096a92fd1af984aa431882109a
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/94/0849fc6e096b1361e6d78fe99d666377b26407
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d7/2b40d8692345030035fb7f1c9052fbe741ae8a
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/59/3500e3dfff920efa03be874d9cfb4ddf126af4
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4b/e23abd04ba302e198f053d1fc3b51e4c2aa8e1
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/92/a21788f969072733d390bfd91f2f9e1cb5fc43
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4e/8d85497503f611679912fda32eeaad169fae2c
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f5/9a09af21efe7315884264b2b93e53e359e3ca5
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ac/56d1e3bc972c64fbe524d19c5936a1f3b281e7
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/60/df7cf2200947df1331530cffad49777e5f77d5
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/1b/3e8c930415711dd68adc43973701e8c89614ed
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d6/c4546c1111fc7536d8388dae658655d6ee9fa4
-commit:imE7mJJ2J2tnc7jQRybgYvBFrm6MyyWFczjxpruVZB
+:000000	000000	0000000	IPJwlB7	A	.git/objects/88/9d385e133e65970d6e142e17b98558feccac02
+:000000	000000	0000000	s1hPTyb	A	.git/objects/f2/09fb927076db492b018bccddd7188fe7c2a93c
+:000000	000000	0000000	gQ6KZOp	A	.git/objects/e4/1bef3f6e7c7609f20e81d8cde4a5f7fffbf7fc
+:000000	000000	0000000	81Homy1	A	.git/objects/6b/3a5d7f1e1f55096a92fd1af984aa431882109a
+:000000	000000	0000000	jVkIYdx	A	.git/objects/94/0849fc6e096b1361e6d78fe99d666377b26407
+:000000	000000	0000000	nYWJNdV	A	.git/objects/d7/2b40d8692345030035fb7f1c9052fbe741ae8a
+:000000	000000	0000000	wMG50z4	A	.git/objects/59/3500e3dfff920efa03be874d9cfb4ddf126af4
+:000000	000000	0000000	3OLH2zH	A	.git/objects/4b/e23abd04ba302e198f053d1fc3b51e4c2aa8e1
+:000000	000000	0000000	xcdOgNv	A	.git/objects/92/a21788f969072733d390bfd91f2f9e1cb5fc43
+:000000	000000	0000000	N80InYr	A	.git/objects/4e/8d85497503f611679912fda32eeaad169fae2c
+:000000	000000	0000000	skjiKNN	A	.git/objects/f5/9a09af21efe7315884264b2b93e53e359e3ca5
+:000000	000000	0000000	oI6F5vo	A	.git/objects/ac/56d1e3bc972c64fbe524d19c5936a1f3b281e7
+:000000	000000	0000000	vcmxfHy	A	.git/objects/60/df7cf2200947df1331530cffad49777e5f77d5
+:000000	000000	0000000	4maQEKT	A	.git/objects/1b/3e8c930415711dd68adc43973701e8c89614ed
+:000000	000000	0000000	cxlQXr1	A	.git/objects/d6/c4546c1111fc7536d8388dae658655d6ee9fa4
+1	0	.git/objects/88/9d385e133e65970d6e142e17b98558feccac02
+2	0	.git/objects/f2/09fb927076db492b018bccddd7188fe7c2a93c
+1	0	.git/objects/e4/1bef3f6e7c7609f20e81d8cde4a5f7fffbf7fc
+1	0	.git/objects/6b/3a5d7f1e1f55096a92fd1af984aa431882109a
+1	0	.git/objects/94/0849fc6e096b1361e6d78fe99d666377b26407
+1	0	.git/objects/d7/2b40d8692345030035fb7f1c9052fbe741ae8a
+1	0	.git/objects/59/3500e3dfff920efa03be874d9cfb4ddf126af4
+1	0	.git/objects/4b/e23abd04ba302e198f053d1fc3b51e4c2aa8e1
+1	0	.git/objects/92/a21788f969072733d390bfd91f2f9e1cb5fc43
+1	0	.git/objects/4e/8d85497503f611679912fda32eeaad169fae2c
+1	0	.git/objects/f5/9a09af21efe7315884264b2b93e53e359e3ca5
+2	0	.git/objects/ac/56d1e3bc972c64fbe524d19c5936a1f3b281e7
+1	0	.git/objects/60/df7cf2200947df1331530cffad49777e5f77d5
+2	0	.git/objects/1b/3e8c930415711dd68adc43973701e8c89614ed
+2	0	.git/objects/d6/c4546c1111fc7536d8388dae658655d6ee9fa4
+commit:w0euHz6v7DdsRW4FfgGdBXzh93QqIOrfLhUlxzxQRd
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 22:08:40 +0000
@@ -332,33 +344,33 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	P78nEMa	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5d/ef559e52b1e07cb03563c96cb3e3a21046c436
-:000000	000000	0000000	9WQHk5s	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7e/04033c87ce5659571113f5815a95dd4ea6bf4e
-:000000	000000	0000000	KIL4RCw	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/cf/4dc4f0e73fe2008b573dc76f3dbcb9fba066c2
-:000000	000000	0000000	6kTHeE2	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/14/cc6c8f738787374aa012746b8977084b69f1aa
-:000000	000000	0000000	xTtV7eM	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b1/3ae7ab45a0029006d035dd39733bf08ed793be
-:000000	000000	0000000	ndoJ2Ls	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e1/dd43c10a118a7b89727e3045cd5569f72f373c
-:000000	000000	0000000	0O5oLhg	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5d/3c6b0d352d4cf593287636ab4daaa41936f685
-:000000	000000	0000000	dQ7dtQu	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a7/e3c1491c5f59894197f231a2b96194f7d77c0b
-:000000	000000	0000000	KQIenST	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/1e/d53fbca2fd3bd515e5f33344b940da4773c7c6
-:000000	000000	0000000	LVEPer3	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0d/4a92609755e05acbc0b4720bc47f61dea8a2c6
-:000000	000000	0000000	WeTAa4A	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f7/696adb9c8d983117874f7eb30e0e7a7e1a4a24
-:000000	000000	0000000	M5dYVbC	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3e/9321b5c7a06114b8b7418091491b04f2b32b78
-:000000	000000	0000000	htyPz5f	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/9f/6526049b93d27d2b21884188b95a6e5e90a2ac
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5d/ef559e52b1e07cb03563c96cb3e3a21046c436
-6	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7e/04033c87ce5659571113f5815a95dd4ea6bf4e
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/cf/4dc4f0e73fe2008b573dc76f3dbcb9fba066c2
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/14/cc6c8f738787374aa012746b8977084b69f1aa
-5	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b1/3ae7ab45a0029006d035dd39733bf08ed793be
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e1/dd43c10a118a7b89727e3045cd5569f72f373c
-11	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5d/3c6b0d352d4cf593287636ab4daaa41936f685
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a7/e3c1491c5f59894197f231a2b96194f7d77c0b
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/1e/d53fbca2fd3bd515e5f33344b940da4773c7c6
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0d/4a92609755e05acbc0b4720bc47f61dea8a2c6
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f7/696adb9c8d983117874f7eb30e0e7a7e1a4a24
-6	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3e/9321b5c7a06114b8b7418091491b04f2b32b78
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/9f/6526049b93d27d2b21884188b95a6e5e90a2ac
-commit:lMTuw8y1QLOCSPvi6CDgAeiT1FBs8MzfKln5ARnlzg
+:000000	000000	0000000	L5QA34C	A	.git/objects/5d/ef559e52b1e07cb03563c96cb3e3a21046c436
+:000000	000000	0000000	otrLA2R	A	.git/objects/7e/04033c87ce5659571113f5815a95dd4ea6bf4e
+:000000	000000	0000000	fIVg1Ak	A	.git/objects/cf/4dc4f0e73fe2008b573dc76f3dbcb9fba066c2
+:000000	000000	0000000	ZfddgcN	A	.git/objects/14/cc6c8f738787374aa012746b8977084b69f1aa
+:000000	000000	0000000	jpBHmAr	A	.git/objects/b1/3ae7ab45a0029006d035dd39733bf08ed793be
+:000000	000000	0000000	SzN2FbQ	A	.git/objects/e1/dd43c10a118a7b89727e3045cd5569f72f373c
+:000000	000000	0000000	W0ihWQy	A	.git/objects/5d/3c6b0d352d4cf593287636ab4daaa41936f685
+:000000	000000	0000000	ItGgH8N	A	.git/objects/a7/e3c1491c5f59894197f231a2b96194f7d77c0b
+:000000	000000	0000000	3G5sPS8	A	.git/objects/1e/d53fbca2fd3bd515e5f33344b940da4773c7c6
+:000000	000000	0000000	Z0Alcs2	A	.git/objects/0d/4a92609755e05acbc0b4720bc47f61dea8a2c6
+:000000	000000	0000000	kqbDUnV	A	.git/objects/f7/696adb9c8d983117874f7eb30e0e7a7e1a4a24
+:000000	000000	0000000	54IJ9mj	A	.git/objects/3e/9321b5c7a06114b8b7418091491b04f2b32b78
+:000000	000000	0000000	MROZnTf	A	.git/objects/9f/6526049b93d27d2b21884188b95a6e5e90a2ac
+4	0	.git/objects/5d/ef559e52b1e07cb03563c96cb3e3a21046c436
+6	0	.git/objects/7e/04033c87ce5659571113f5815a95dd4ea6bf4e
+1	0	.git/objects/cf/4dc4f0e73fe2008b573dc76f3dbcb9fba066c2
+2	0	.git/objects/14/cc6c8f738787374aa012746b8977084b69f1aa
+5	0	.git/objects/b1/3ae7ab45a0029006d035dd39733bf08ed793be
+3	0	.git/objects/e1/dd43c10a118a7b89727e3045cd5569f72f373c
+11	0	.git/objects/5d/3c6b0d352d4cf593287636ab4daaa41936f685
+1	0	.git/objects/a7/e3c1491c5f59894197f231a2b96194f7d77c0b
+4	0	.git/objects/1e/d53fbca2fd3bd515e5f33344b940da4773c7c6
+13	0	.git/objects/0d/4a92609755e05acbc0b4720bc47f61dea8a2c6
+1	0	.git/objects/f7/696adb9c8d983117874f7eb30e0e7a7e1a4a24
+6	0	.git/objects/3e/9321b5c7a06114b8b7418091491b04f2b32b78
+4	0	.git/objects/9f/6526049b93d27d2b21884188b95a6e5e90a2ac
+commit:bQ0Wy0W5aZOdRrg9omxyoj6JWvquniI7uncAeCPhvi
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 22:03:48 +0000
@@ -366,29 +378,29 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	PKDgWni	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5a/4015b234d6dc41472f3b3324bea341a7c98640
-:000000	000000	0000000	TLpdjMU	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d4/180cc8a3096989c7e288059ed498f0d6745129
-:000000	000000	0000000	mzbhL0T	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/23/8df28b28e1119e3a692f59dfbdde5493b67681
-:000000	000000	0000000	bixQx71	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ca/3d5b706595759ea38321e3dc16fb18d2211f83
-:000000	000000	0000000	k0PlEue	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/04/cb976f87a1fe76533e379f4e31c27545ed1014
-:000000	000000	0000000	mp9crG5	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b1/0cb21aa4d36d923e24b795c1aba9b033077049
-:000000	000000	0000000	NVAr2e9	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ab/62bb185cd02f04c685064f280a6f2d78998915
-:000000	000000	0000000	eQ5ZwHm	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e1/33367428e6d8754feb42d92cabb75353298e21
-:000000	000000	0000000	rzHS24K	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/22/2e43394313c8d7342af3677c52bebeeb892800
-:000000	000000	0000000	LYBRtee	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6e/a0c020e00f1919430c101779cfb18ba7a7fbf0
-:000000	000000	0000000	p8z4hAa	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/14/131470e217edacc54666a53411022abbea7d85
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5a/4015b234d6dc41472f3b3324bea341a7c98640
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d4/180cc8a3096989c7e288059ed498f0d6745129
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/23/8df28b28e1119e3a692f59dfbdde5493b67681
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ca/3d5b706595759ea38321e3dc16fb18d2211f83
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/04/cb976f87a1fe76533e379f4e31c27545ed1014
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b1/0cb21aa4d36d923e24b795c1aba9b033077049
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ab/62bb185cd02f04c685064f280a6f2d78998915
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e1/33367428e6d8754feb42d92cabb75353298e21
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/22/2e43394313c8d7342af3677c52bebeeb892800
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6e/a0c020e00f1919430c101779cfb18ba7a7fbf0
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/14/131470e217edacc54666a53411022abbea7d85
-commit:bzp6iwWdSSSFnBdyFumKionF2NLVuHh274I3PECW7I
+:000000	000000	0000000	fsV3aFH	A	.git/objects/5a/4015b234d6dc41472f3b3324bea341a7c98640
+:000000	000000	0000000	XgqTOjm	A	.git/objects/d4/180cc8a3096989c7e288059ed498f0d6745129
+:000000	000000	0000000	nuy2Vr3	A	.git/objects/23/8df28b28e1119e3a692f59dfbdde5493b67681
+:000000	000000	0000000	PNfbQch	A	.git/objects/ca/3d5b706595759ea38321e3dc16fb18d2211f83
+:000000	000000	0000000	eECsiLb	A	.git/objects/04/cb976f87a1fe76533e379f4e31c27545ed1014
+:000000	000000	0000000	z5ruUeW	A	.git/objects/b1/0cb21aa4d36d923e24b795c1aba9b033077049
+:000000	000000	0000000	j3AeFyk	A	.git/objects/ab/62bb185cd02f04c685064f280a6f2d78998915
+:000000	000000	0000000	ckL7rXl	A	.git/objects/e1/33367428e6d8754feb42d92cabb75353298e21
+:000000	000000	0000000	KXh8Enw	A	.git/objects/22/2e43394313c8d7342af3677c52bebeeb892800
+:000000	000000	0000000	TiPgesw	A	.git/objects/6e/a0c020e00f1919430c101779cfb18ba7a7fbf0
+:000000	000000	0000000	v06eDkj	A	.git/objects/14/131470e217edacc54666a53411022abbea7d85
+1	0	.git/objects/5a/4015b234d6dc41472f3b3324bea341a7c98640
+3	0	.git/objects/d4/180cc8a3096989c7e288059ed498f0d6745129
+1	0	.git/objects/23/8df28b28e1119e3a692f59dfbdde5493b67681
+2	0	.git/objects/ca/3d5b706595759ea38321e3dc16fb18d2211f83
+1	0	.git/objects/04/cb976f87a1fe76533e379f4e31c27545ed1014
+1	0	.git/objects/b1/0cb21aa4d36d923e24b795c1aba9b033077049
+1	0	.git/objects/ab/62bb185cd02f04c685064f280a6f2d78998915
+1	0	.git/objects/e1/33367428e6d8754feb42d92cabb75353298e21
+1	0	.git/objects/22/2e43394313c8d7342af3677c52bebeeb892800
+3	0	.git/objects/6e/a0c020e00f1919430c101779cfb18ba7a7fbf0
+1	0	.git/objects/14/131470e217edacc54666a53411022abbea7d85
+commit:dD0ZUm2fP5g7Ud2FkI84TZdUeKKWubduo4ISrHXoRr
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 22:03:25 +0000
@@ -396,13 +408,13 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	Lnwdg2W	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/9d/8ef999c071d75137677ea167dcfcb1d908e96a
-:000000	000000	0000000	2CUYchO	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3c/85d63c3b4ece4d4c42597a9f27a228a560d087
-:000000	000000	0000000	jac89jv	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7d/55ef2312d081fa55467c39bcd413c283276039
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/9d/8ef999c071d75137677ea167dcfcb1d908e96a
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3c/85d63c3b4ece4d4c42597a9f27a228a560d087
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7d/55ef2312d081fa55467c39bcd413c283276039
-commit:zwZgYinAO84qsrMrcuxll9nPHD3mIMgH3F0bipDgL6
+:000000	000000	0000000	LrO0xHN	A	.git/objects/9d/8ef999c071d75137677ea167dcfcb1d908e96a
+:000000	000000	0000000	uGdCT49	A	.git/objects/3c/85d63c3b4ece4d4c42597a9f27a228a560d087
+:000000	000000	0000000	1g9uRJ3	A	.git/objects/7d/55ef2312d081fa55467c39bcd413c283276039
+4	0	.git/objects/9d/8ef999c071d75137677ea167dcfcb1d908e96a
+3	0	.git/objects/3c/85d63c3b4ece4d4c42597a9f27a228a560d087
+2	0	.git/objects/7d/55ef2312d081fa55467c39bcd413c283276039
+commit:xmY9PtmCf8Q1HnRgdKK3ZRdlzMQcbN49MQRQ7QpFKF
 author:denisfeier
 email:denisfeier@generated.com
 date:Mon, 16 Nov 2020 22:02:30 +0000
@@ -410,9 +422,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	xPcF9Fe	A	/Users/denisfeier/Documents/git-log-file-generator/.git/config
-19	0	/Users/denisfeier/Documents/git-log-file-generator/.git/config
-commit:g8eEbnD2Ojdt7iUd5S9mUskUIGt8kbVyJi2lXaoqRP
+:000000	000000	0000000	UzXFwsw	A	.git/config
+19	0	.git/config
+commit:PSuNU1eZqrsSU6LypMtUwO2LxDtj8Jyf0HpHdCB8vI
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:35:44 +0000
@@ -420,9 +432,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	OpQIvTM	M	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/remotes/origin2/master
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/remotes/origin2/master
-commit:uahIrcAxTWq4VBVHbsUsbRSmLWp7g6iAO2FLTLitW8
+:000000	000000	0000000	Z9aHDEN	M	.git/logs/refs/remotes/origin2/master
+5	0	.git/logs/refs/remotes/origin2/master
+commit:vgBNPl4sykHygqLCLlEYTDrH5apXD2PAXIyFR5yjqb
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:21:49 +0000
@@ -430,37 +442,37 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	We2FYK5	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e8/f6c811c740cff3e162bed7bc090da6695637d3
-:000000	000000	0000000	8tBsLVI	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/14/de87c07278b3918848960a13dbc45ced4aa1e0
-:000000	000000	0000000	Q7Rj9sd	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/64/cdedf810fc153d5f3a6f3c3489da18b718f656
-:000000	000000	0000000	X5B1SJK	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/62/99c8e417b25c77eb408cd0b6d2070ce677da1a
-:000000	000000	0000000	BLdHktT	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ea/4ac9807cfb8b8401249f5f5204c99a21bd1f18
-:000000	000000	0000000	SaIpZIC	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/40/207db4d31639f9a88e79250c830dcd3567eded
-:000000	000000	0000000	y6ch4A7	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/43/b9164cb89a2b36d8234fa616ecf15689cf0f0c
-:000000	000000	0000000	9BQF1n6	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6d/68af678ffe3979a4a91ffb0aaa54aa70fd0f4e
-:000000	000000	0000000	vL6L6NF	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/8a/46670d7bb787a8ceee9a62699bf83de55213b2
-:000000	000000	0000000	A0IF2jo	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7d/bd7965bf997a04399341656b6af35fa812f0f7
-:000000	000000	0000000	POO6c7U	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b4/dda7aae5d1935712439233cd84d55b570e2a59
-:000000	000000	0000000	RriHVuo	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/af/7867b034b2bb4ef4754823bc2f3a5a57baf665
-:000000	000000	0000000	AEqPYFf	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/51/07cb441b0ebd7afc564c298ff789a68585d13a
-:000000	000000	0000000	CyqrUPl	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/95/af48f4c5cd5843faa06a11ad9b25705ff79172
-:000000	000000	0000000	93vYIv1	A	/Users/denisfeier/Documents/git-log-file-generator/.git/refs/original/refs/heads/master
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e8/f6c811c740cff3e162bed7bc090da6695637d3
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/14/de87c07278b3918848960a13dbc45ced4aa1e0
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/64/cdedf810fc153d5f3a6f3c3489da18b718f656
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/62/99c8e417b25c77eb408cd0b6d2070ce677da1a
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ea/4ac9807cfb8b8401249f5f5204c99a21bd1f18
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/40/207db4d31639f9a88e79250c830dcd3567eded
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/43/b9164cb89a2b36d8234fa616ecf15689cf0f0c
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6d/68af678ffe3979a4a91ffb0aaa54aa70fd0f4e
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/8a/46670d7bb787a8ceee9a62699bf83de55213b2
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7d/bd7965bf997a04399341656b6af35fa812f0f7
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b4/dda7aae5d1935712439233cd84d55b570e2a59
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/af/7867b034b2bb4ef4754823bc2f3a5a57baf665
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/51/07cb441b0ebd7afc564c298ff789a68585d13a
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/95/af48f4c5cd5843faa06a11ad9b25705ff79172
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/refs/original/refs/heads/master
-commit:7MK0x0hxTIEgXzaOiUhsXjkzTGOQJqYaCzHzzq6WLv
+:000000	000000	0000000	RFvE0kL	A	.git/objects/e8/f6c811c740cff3e162bed7bc090da6695637d3
+:000000	000000	0000000	Jv3O4qa	A	.git/objects/14/de87c07278b3918848960a13dbc45ced4aa1e0
+:000000	000000	0000000	CIW9yTJ	A	.git/objects/64/cdedf810fc153d5f3a6f3c3489da18b718f656
+:000000	000000	0000000	JPLGzrO	A	.git/objects/62/99c8e417b25c77eb408cd0b6d2070ce677da1a
+:000000	000000	0000000	wlB6utG	A	.git/objects/ea/4ac9807cfb8b8401249f5f5204c99a21bd1f18
+:000000	000000	0000000	sCprvcb	A	.git/objects/40/207db4d31639f9a88e79250c830dcd3567eded
+:000000	000000	0000000	0UGYo7V	A	.git/objects/43/b9164cb89a2b36d8234fa616ecf15689cf0f0c
+:000000	000000	0000000	R1x6K6U	A	.git/objects/6d/68af678ffe3979a4a91ffb0aaa54aa70fd0f4e
+:000000	000000	0000000	EPL5yJY	A	.git/objects/8a/46670d7bb787a8ceee9a62699bf83de55213b2
+:000000	000000	0000000	y9Z5nNv	A	.git/objects/7d/bd7965bf997a04399341656b6af35fa812f0f7
+:000000	000000	0000000	X3Zt4H3	A	.git/objects/b4/dda7aae5d1935712439233cd84d55b570e2a59
+:000000	000000	0000000	QwmPniZ	A	.git/objects/af/7867b034b2bb4ef4754823bc2f3a5a57baf665
+:000000	000000	0000000	0mu2Rqq	A	.git/objects/51/07cb441b0ebd7afc564c298ff789a68585d13a
+:000000	000000	0000000	woAFU0a	A	.git/objects/95/af48f4c5cd5843faa06a11ad9b25705ff79172
+:000000	000000	0000000	YhIEFJd	A	.git/refs/original/refs/heads/master
+2	0	.git/objects/e8/f6c811c740cff3e162bed7bc090da6695637d3
+1	0	.git/objects/14/de87c07278b3918848960a13dbc45ced4aa1e0
+2	0	.git/objects/64/cdedf810fc153d5f3a6f3c3489da18b718f656
+1	0	.git/objects/62/99c8e417b25c77eb408cd0b6d2070ce677da1a
+1	0	.git/objects/ea/4ac9807cfb8b8401249f5f5204c99a21bd1f18
+2	0	.git/objects/40/207db4d31639f9a88e79250c830dcd3567eded
+1	0	.git/objects/43/b9164cb89a2b36d8234fa616ecf15689cf0f0c
+1	0	.git/objects/6d/68af678ffe3979a4a91ffb0aaa54aa70fd0f4e
+4	0	.git/objects/8a/46670d7bb787a8ceee9a62699bf83de55213b2
+3	0	.git/objects/7d/bd7965bf997a04399341656b6af35fa812f0f7
+2	0	.git/objects/b4/dda7aae5d1935712439233cd84d55b570e2a59
+1	0	.git/objects/af/7867b034b2bb4ef4754823bc2f3a5a57baf665
+1	0	.git/objects/51/07cb441b0ebd7afc564c298ff789a68585d13a
+1	0	.git/objects/95/af48f4c5cd5843faa06a11ad9b25705ff79172
+1	0	.git/refs/original/refs/heads/master
+commit:2shoW9IK0DV1J5b0XUSClJYZdtDOYmrgEry5fU3L95
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:08:37 +0000
@@ -468,29 +480,29 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	eN4aqQ3	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/cb/9f3cc8107c88499f7dd08f7b6dba0ddd78e2c7
-:000000	000000	0000000	AsSLAwz	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/9d/974e419ab231506a4a538862ddc8a0fb891586
-:000000	000000	0000000	KldlNMU	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ac/ed194c11a30dbba825f8fbf87ca55eb8d76c2a
-:000000	000000	0000000	J5ITOEA	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5e/c93d97d4f1171e458ab819f9743517cd5553a0
-:000000	000000	0000000	K0BPmXl	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3c/9945f08fbe416c748665f511a4610606565c2a
-:000000	000000	0000000	njMPUpv	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bb/091ffe7e9d60560a895b99e5071558f35c3615
-:000000	000000	0000000	16ydnG6	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/23/eb73cd5ff5fc5cd8be404c6cc55a8e5f4a439d
-:000000	000000	0000000	ZP8No5E	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/59/c803a699169eff429893fc5f83dd058e2d860b
-:000000	000000	0000000	9FtobMd	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/1b/977102ceb42cad18df9487a4ca5ece06dd1155
-:000000	000000	0000000	MebpzKn	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c4/468d25480598846a71d46c985c8705da5c1632
-:000000	000000	0000000	o9T0XUz	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/74/3cdb76267a6fb83011973cbcb5deb631cb46af
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/cb/9f3cc8107c88499f7dd08f7b6dba0ddd78e2c7
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/9d/974e419ab231506a4a538862ddc8a0fb891586
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ac/ed194c11a30dbba825f8fbf87ca55eb8d76c2a
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5e/c93d97d4f1171e458ab819f9743517cd5553a0
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3c/9945f08fbe416c748665f511a4610606565c2a
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bb/091ffe7e9d60560a895b99e5071558f35c3615
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/23/eb73cd5ff5fc5cd8be404c6cc55a8e5f4a439d
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/59/c803a699169eff429893fc5f83dd058e2d860b
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/1b/977102ceb42cad18df9487a4ca5ece06dd1155
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c4/468d25480598846a71d46c985c8705da5c1632
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/74/3cdb76267a6fb83011973cbcb5deb631cb46af
-commit:8IEsA1LcDyZH9UsQSPY0UcwwQIPNLIWcyAFevzXnt3
+:000000	000000	0000000	pDtM7gu	A	.git/objects/cb/9f3cc8107c88499f7dd08f7b6dba0ddd78e2c7
+:000000	000000	0000000	XQKytIH	A	.git/objects/9d/974e419ab231506a4a538862ddc8a0fb891586
+:000000	000000	0000000	7uI1ph6	A	.git/objects/ac/ed194c11a30dbba825f8fbf87ca55eb8d76c2a
+:000000	000000	0000000	7IoZgc9	A	.git/objects/5e/c93d97d4f1171e458ab819f9743517cd5553a0
+:000000	000000	0000000	fPMwpTc	A	.git/objects/3c/9945f08fbe416c748665f511a4610606565c2a
+:000000	000000	0000000	HVcW76F	A	.git/objects/bb/091ffe7e9d60560a895b99e5071558f35c3615
+:000000	000000	0000000	XCcubjd	A	.git/objects/23/eb73cd5ff5fc5cd8be404c6cc55a8e5f4a439d
+:000000	000000	0000000	aT9aKv4	A	.git/objects/59/c803a699169eff429893fc5f83dd058e2d860b
+:000000	000000	0000000	9MzhHFu	A	.git/objects/1b/977102ceb42cad18df9487a4ca5ece06dd1155
+:000000	000000	0000000	FouomCT	A	.git/objects/c4/468d25480598846a71d46c985c8705da5c1632
+:000000	000000	0000000	5nHObkB	A	.git/objects/74/3cdb76267a6fb83011973cbcb5deb631cb46af
+1	0	.git/objects/cb/9f3cc8107c88499f7dd08f7b6dba0ddd78e2c7
+3	0	.git/objects/9d/974e419ab231506a4a538862ddc8a0fb891586
+1	0	.git/objects/ac/ed194c11a30dbba825f8fbf87ca55eb8d76c2a
+1	0	.git/objects/5e/c93d97d4f1171e458ab819f9743517cd5553a0
+1	0	.git/objects/3c/9945f08fbe416c748665f511a4610606565c2a
+1	0	.git/objects/bb/091ffe7e9d60560a895b99e5071558f35c3615
+1	0	.git/objects/23/eb73cd5ff5fc5cd8be404c6cc55a8e5f4a439d
+1	0	.git/objects/59/c803a699169eff429893fc5f83dd058e2d860b
+1	0	.git/objects/1b/977102ceb42cad18df9487a4ca5ece06dd1155
+2	0	.git/objects/c4/468d25480598846a71d46c985c8705da5c1632
+3	0	.git/objects/74/3cdb76267a6fb83011973cbcb5deb631cb46af
+commit:C6wYLOuPJSoPrzyg8ORaneYKtOA0nfzoHLR27ESRwp
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:08:13 +0000
@@ -498,9 +510,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	GXW8Z0t	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/be/04aad125ddc4f8b926b5c2248d18abbea981d7
-7	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/be/04aad125ddc4f8b926b5c2248d18abbea981d7
-commit:HtStGRdQvzQGMScWmhIb5cj7SR13n3Q2gdt5xxV1MT
+:000000	000000	0000000	YTavHr3	A	.git/objects/be/04aad125ddc4f8b926b5c2248d18abbea981d7
+7	0	.git/objects/be/04aad125ddc4f8b926b5c2248d18abbea981d7
+commit:To9B40v0srnKpEmICldNdGBAKk1vFT92VyhYKrMYhW
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:07:58 +0000
@@ -508,9 +520,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	ARMcV7e	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6d/217d82c07b0b5439665691edc309cf050287cb
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6d/217d82c07b0b5439665691edc309cf050287cb
-commit:Hh1wKubaW29kkiimskuCeiuoxrIOdtyOrjYFbAggcR
+:000000	000000	0000000	vfeEbI9	A	.git/objects/6d/217d82c07b0b5439665691edc309cf050287cb
+3	0	.git/objects/6d/217d82c07b0b5439665691edc309cf050287cb
+commit:6K597SINcbgWkPW8MSAwCkYPbomHGPZA7Vc06XM1if
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:07:27 +0000
@@ -518,11 +530,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	2p7gw4F	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c0/5faa53fbabdeb7f4ae56dbf2bba3643311ea4d
-:000000	000000	0000000	XoJd38J	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0d/4399980baec6bfc906a467c0b4aed8b14699bb
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c0/5faa53fbabdeb7f4ae56dbf2bba3643311ea4d
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0d/4399980baec6bfc906a467c0b4aed8b14699bb
-commit:IPUCqq2tgRHkdudMmwU3ERi5985fbcbnRrHX4FMVa3
+:000000	000000	0000000	iqijT38	A	.git/objects/c0/5faa53fbabdeb7f4ae56dbf2bba3643311ea4d
+:000000	000000	0000000	NK0RSOX	A	.git/objects/0d/4399980baec6bfc906a467c0b4aed8b14699bb
+2	0	.git/objects/c0/5faa53fbabdeb7f4ae56dbf2bba3643311ea4d
+2	0	.git/objects/0d/4399980baec6bfc906a467c0b4aed8b14699bb
+commit:QfXhXhjbakw2vD7bAO80rBHsndhvG3do4bzlQRizGQ
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:07:13 +0000
@@ -530,9 +542,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	i6KMvBC	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/19/b08a66afe5d887d7ceedf345b63aada5c29810
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/19/b08a66afe5d887d7ceedf345b63aada5c29810
-commit:gi7ZnRGwCJsJxWndnXzriIQcwDWlcwnZ3IhtyiC1nQ
+:000000	000000	0000000	8jgsP9F	A	.git/objects/19/b08a66afe5d887d7ceedf345b63aada5c29810
+4	0	.git/objects/19/b08a66afe5d887d7ceedf345b63aada5c29810
+commit:86uzlXsBCvzDtF1mvPZCOdeA1mmBL9YD74dg37hJfS
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:07:01 +0000
@@ -540,11 +552,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	bjmJOg1	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e6/bedd0e197702fbf17ee169df66b4b4b6b2ad60
-:000000	000000	0000000	GTJNocj	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bc/0132b920bf4f8b616b1b6d266c477de98f4a77
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e6/bedd0e197702fbf17ee169df66b4b4b6b2ad60
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bc/0132b920bf4f8b616b1b6d266c477de98f4a77
-commit:L4f9CatArrVtUbggorsHAgDHEgtK1ZvLaQaf3afDYQ
+:000000	000000	0000000	NitIeod	A	.git/objects/e6/bedd0e197702fbf17ee169df66b4b4b6b2ad60
+:000000	000000	0000000	5qoji6e	A	.git/objects/bc/0132b920bf4f8b616b1b6d266c477de98f4a77
+2	0	.git/objects/e6/bedd0e197702fbf17ee169df66b4b4b6b2ad60
+2	0	.git/objects/bc/0132b920bf4f8b616b1b6d266c477de98f4a77
+commit:Mp3Pl8QQH78oueO9m7bOoUW0rixslJQ0MsFnIrfJ3J
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:06:35 +0000
@@ -552,9 +564,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	gZ3apGp	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bc/01c99032e8cde1313605c03cd90cd1361bd415
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bc/01c99032e8cde1313605c03cd90cd1361bd415
-commit:SI8F4yXIhN5aAoyd07SS32cqxn6f6yMhNvfHkmevuT
+:000000	000000	0000000	87Vywlj	A	.git/objects/bc/01c99032e8cde1313605c03cd90cd1361bd415
+3	0	.git/objects/bc/01c99032e8cde1313605c03cd90cd1361bd415
+commit:89BFct8SmxPGJp6GrjnS5XfV9ojgrvTiQKZVOZAXk6
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 22:06:24 +0000
@@ -562,11 +574,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	coYVOY1	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/73/74b3ba82fa7f1d1e9ef023c8d8869bf56f8526
-:000000	000000	0000000	O895DX0	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/71/dffaeb18d3df8058d087404b0219b5263ebe34
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/73/74b3ba82fa7f1d1e9ef023c8d8869bf56f8526
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/71/dffaeb18d3df8058d087404b0219b5263ebe34
-commit:WRomKwue09dbKxeV8hGefM5EakfD08sHEs1jCNHTe5
+:000000	000000	0000000	9DGuU4J	A	.git/objects/73/74b3ba82fa7f1d1e9ef023c8d8869bf56f8526
+:000000	000000	0000000	RAfWMRp	A	.git/objects/71/dffaeb18d3df8058d087404b0219b5263ebe34
+2	0	.git/objects/73/74b3ba82fa7f1d1e9ef023c8d8869bf56f8526
+2	0	.git/objects/71/dffaeb18d3df8058d087404b0219b5263ebe34
+commit:kHC2mLS1UWd73YxWHXu97oToPwE9CJ4zgGIjVrUquO
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 19:03:03 +0000
@@ -574,19 +586,19 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	wYMbJkV	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml
-:000000	000000	0000000	jCCJZlp	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml
-:000000	000000	0000000	5ETqo36	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml
-:000000	000000	0000000	LLVlmAg	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_1.xml
-:000000	000000	0000000	KEdgm40	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml
-:000000	000000	0000000	gHNUVJN	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_1.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml
-commit:gQ9gApRx9MOvduLytSzFn903jtm5zwA5LdBFrbgOnt
+:000000	000000	0000000	h2AhtRZ	A	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml
+:000000	000000	0000000	ZPBefBs	A	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml
+:000000	000000	0000000	f3ex3sQ	A	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml
+:000000	000000	0000000	3xEz2nm	A	.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_1.xml
+:000000	000000	0000000	qpecmu5	A	.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml
+:000000	000000	0000000	F8ageeq	A	.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_1.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml
+13	0	.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml
+commit:MkyOUe1iDEL0YRyC6T9tfJKXnsWm2x5BLJlxTsMYvu
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 17:06:27 +0000
@@ -594,9 +606,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	sSnuLvv	A	/Users/denisfeier/Documents/git-log-file-generator/Dockerfile
-17	0	/Users/denisfeier/Documents/git-log-file-generator/Dockerfile
-commit:bZuxsu0fNxRd1qc2JUvay1Jbv0Pz7Q7qC8T86bjjl6
+:000000	000000	0000000	NwHtQLz	A	Dockerfile
+17	0	Dockerfile
+commit:L3BDTZw2L9pjcRdi1jaxeAtCTEyeWKENKadxRbtodL
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 17:06:27 +0000
@@ -604,9 +616,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	tMabOkF	M	/Users/denisfeier/Documents/git-log-file-generator/Dockerfile
-17	0	/Users/denisfeier/Documents/git-log-file-generator/Dockerfile
-commit:6WDkfXPfqRvFaA4R9MMZ0CXmIvYBLSzYwhshrgPr6v
+:000000	000000	0000000	n8PZksu	M	Dockerfile
+17	0	Dockerfile
+commit:WBdU9wprwU8Ip3VApiA2WwVnRgc6RKF8iBwKOsjwx4
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 17:02:49 +0000
@@ -614,17 +626,17 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	Jf00KwV	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/89/86c9b197cf7d76ca5f9528506de8dee526b53b
-:000000	000000	0000000	Om1vcpJ	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/51/55b3462addcb542ceaffb1f1ef2405c1374238
-:000000	000000	0000000	UaNpEgf	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/cf/521aa98ddd41a49bcc9a3fef60ff9a233678e1
-:000000	000000	0000000	G9Oig6I	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e2/405cf73cb45d1b38353271067f994eae485e3f
-:000000	000000	0000000	PtT3zew	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/aa/cffc97b40a5ac61b2eb57fc0bdfdb216a77e3e
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/89/86c9b197cf7d76ca5f9528506de8dee526b53b
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/51/55b3462addcb542ceaffb1f1ef2405c1374238
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/cf/521aa98ddd41a49bcc9a3fef60ff9a233678e1
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e2/405cf73cb45d1b38353271067f994eae485e3f
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/aa/cffc97b40a5ac61b2eb57fc0bdfdb216a77e3e
-commit:mPoXnWQHLtFoVnZbWCsLd6A9BSMahI2qiExz4i3uQl
+:000000	000000	0000000	msuNYKP	A	.git/objects/89/86c9b197cf7d76ca5f9528506de8dee526b53b
+:000000	000000	0000000	HP4TcdE	A	.git/objects/51/55b3462addcb542ceaffb1f1ef2405c1374238
+:000000	000000	0000000	zFtVZB2	A	.git/objects/cf/521aa98ddd41a49bcc9a3fef60ff9a233678e1
+:000000	000000	0000000	8BHpUrD	A	.git/objects/e2/405cf73cb45d1b38353271067f994eae485e3f
+:000000	000000	0000000	oTzmeQh	A	.git/objects/aa/cffc97b40a5ac61b2eb57fc0bdfdb216a77e3e
+1	0	.git/objects/89/86c9b197cf7d76ca5f9528506de8dee526b53b
+1	0	.git/objects/51/55b3462addcb542ceaffb1f1ef2405c1374238
+1	0	.git/objects/cf/521aa98ddd41a49bcc9a3fef60ff9a233678e1
+2	0	.git/objects/e2/405cf73cb45d1b38353271067f994eae485e3f
+2	0	.git/objects/aa/cffc97b40a5ac61b2eb57fc0bdfdb216a77e3e
+commit:rqMKyP4o2anvnEpnMZCn1ktUHLihzbeBY58V2yAcQV
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 17:02:10 +0000
@@ -632,17 +644,17 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	hlgQOEd	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7b/d82a1d5b3cc49387903218e32938af8642aac1
-:000000	000000	0000000	irkOpp3	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f8/feee2eb6d70bed5642eb804783c336d26b581c
-:000000	000000	0000000	gk3k2yn	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/04/59c2c9a502a8de869c2be8b9d41edd2c97945a
-:000000	000000	0000000	aruUmL8	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/1e/46ce2acdfccaf4f65682a501e2901856c4e594
-:000000	000000	0000000	9JLq1P3	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/55/2dee5818a61137772237a03fb1329b78f3e11b
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/7b/d82a1d5b3cc49387903218e32938af8642aac1
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f8/feee2eb6d70bed5642eb804783c336d26b581c
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/04/59c2c9a502a8de869c2be8b9d41edd2c97945a
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/1e/46ce2acdfccaf4f65682a501e2901856c4e594
-5	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/55/2dee5818a61137772237a03fb1329b78f3e11b
-commit:wZx4tcfOwTa4txyFocAIsIQCiC8OiYrhWZDfTCPPbO
+:000000	000000	0000000	GdEA2WR	A	.git/objects/7b/d82a1d5b3cc49387903218e32938af8642aac1
+:000000	000000	0000000	IE1iVws	A	.git/objects/f8/feee2eb6d70bed5642eb804783c336d26b581c
+:000000	000000	0000000	lWD7fQj	A	.git/objects/04/59c2c9a502a8de869c2be8b9d41edd2c97945a
+:000000	000000	0000000	9jpk21E	A	.git/objects/1e/46ce2acdfccaf4f65682a501e2901856c4e594
+:000000	000000	0000000	HvhcSTb	A	.git/objects/55/2dee5818a61137772237a03fb1329b78f3e11b
+4	0	.git/objects/7b/d82a1d5b3cc49387903218e32938af8642aac1
+2	0	.git/objects/f8/feee2eb6d70bed5642eb804783c336d26b581c
+1	0	.git/objects/04/59c2c9a502a8de869c2be8b9d41edd2c97945a
+1	0	.git/objects/1e/46ce2acdfccaf4f65682a501e2901856c4e594
+5	0	.git/objects/55/2dee5818a61137772237a03fb1329b78f3e11b
+commit:4RLzOpJjaAVCJJkRpfKArIIlZvoUIJoP5SGWABI5Xa
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 17:01:50 +0000
@@ -650,21 +662,21 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	BInJ7PI	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3c/090376bf55357d6cc911fc5c8d77b4aa179117
-:000000	000000	0000000	4TeRCWg	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c8/31920605c7f677ea8f77f1ce0e29383b4135d1
-:000000	000000	0000000	i2lcuDB	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3a/1a8d84e63502c0c5cc7f8c8085320935a2990a
-:000000	000000	0000000	0RtydFF	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c6/41316bcf7f3cb765022671634eba9905329814
-:000000	000000	0000000	53Gz3nc	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e6/8308e49869363d9963cc54812dbb9317586163
-:000000	000000	0000000	lbg7k7K	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/96/4560cb0d0024665ae1f1ac3d57f3bfb5a11ca2
-:000000	000000	0000000	L1LEmhr	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/87/c170e8166669aeed3e3b12d657a954a5dafc4d
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3c/090376bf55357d6cc911fc5c8d77b4aa179117
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c8/31920605c7f677ea8f77f1ce0e29383b4135d1
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/3a/1a8d84e63502c0c5cc7f8c8085320935a2990a
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c6/41316bcf7f3cb765022671634eba9905329814
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e6/8308e49869363d9963cc54812dbb9317586163
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/96/4560cb0d0024665ae1f1ac3d57f3bfb5a11ca2
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/87/c170e8166669aeed3e3b12d657a954a5dafc4d
-commit:TrMoqR5PVAH8wWeuOf7VuVTbEhHk0RPMd4oASABKRq
+:000000	000000	0000000	cx1bWtj	A	.git/objects/3c/090376bf55357d6cc911fc5c8d77b4aa179117
+:000000	000000	0000000	a9HAluC	A	.git/objects/c8/31920605c7f677ea8f77f1ce0e29383b4135d1
+:000000	000000	0000000	vnuLtiK	A	.git/objects/3a/1a8d84e63502c0c5cc7f8c8085320935a2990a
+:000000	000000	0000000	I9Hn3cT	A	.git/objects/c6/41316bcf7f3cb765022671634eba9905329814
+:000000	000000	0000000	CZC3KMR	A	.git/objects/e6/8308e49869363d9963cc54812dbb9317586163
+:000000	000000	0000000	Az8iHGr	A	.git/objects/96/4560cb0d0024665ae1f1ac3d57f3bfb5a11ca2
+:000000	000000	0000000	qzpSGxx	A	.git/objects/87/c170e8166669aeed3e3b12d657a954a5dafc4d
+1	0	.git/objects/3c/090376bf55357d6cc911fc5c8d77b4aa179117
+1	0	.git/objects/c8/31920605c7f677ea8f77f1ce0e29383b4135d1
+1	0	.git/objects/3a/1a8d84e63502c0c5cc7f8c8085320935a2990a
+1	0	.git/objects/c6/41316bcf7f3cb765022671634eba9905329814
+1	0	.git/objects/e6/8308e49869363d9963cc54812dbb9317586163
+1	0	.git/objects/96/4560cb0d0024665ae1f1ac3d57f3bfb5a11ca2
+1	0	.git/objects/87/c170e8166669aeed3e3b12d657a954a5dafc4d
+commit:k3d4QEP6SUbL5Qk9kLEbJhAXMlKnXnZTenzjxBZaZ4
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:59:55 +0000
@@ -672,9 +684,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	0UNvNNs	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/10/7c58b4416f91f3e7d7bcfd3f067d9303fd14ca
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/10/7c58b4416f91f3e7d7bcfd3f067d9303fd14ca
-commit:3lOdjAQkqq4VQFSTyGdkPoR1Z5Qvyr7toqDJwhEB6H
+:000000	000000	0000000	MgWwZNK	A	.git/objects/10/7c58b4416f91f3e7d7bcfd3f067d9303fd14ca
+4	0	.git/objects/10/7c58b4416f91f3e7d7bcfd3f067d9303fd14ca
+commit:Z6peuVkPPhepkz8rJ4eIk1aiagikuWNXoSiIi7t6qo
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:59:26 +0000
@@ -682,9 +694,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	TxXJrmX	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5d/33cf018bee97483d621b0ecd8b367114c6813f
-5	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5d/33cf018bee97483d621b0ecd8b367114c6813f
-commit:RWlbTVVrO2et0sfgum6JpHTRTqc6Vk3ecgOoqbCX8B
+:000000	000000	0000000	w6gLvJs	A	.git/objects/5d/33cf018bee97483d621b0ecd8b367114c6813f
+5	0	.git/objects/5d/33cf018bee97483d621b0ecd8b367114c6813f
+commit:geEqHBR8ult7v2pDbQgWbqENoq1fSoff7xeJARDYfV
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:59:07 +0000
@@ -692,23 +704,23 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	CqyvdhB	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/cc/a5b31e0ee6fd4409a576c8b10c084d53ef863b
-:000000	000000	0000000	NtPF3cx	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0a/11b00b32fffc0347ca55f7520f5f33fe2f5918
-:000000	000000	0000000	Ff4MJ5M	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4f/ad078cbfd5669681e55873606e7c9f29e02dc5
-:000000	000000	0000000	hmVaSlZ	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0f/1b54a7a833d7d0c5206f34a1a6ec94ccb46398
-:000000	000000	0000000	fGDVAg5	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e0/f13dcfee9ce65b218904cd756389967bf8779c
-:000000	000000	0000000	qqaV0J6	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/83/5b969b318ddc19ba2abc7617b21af50105ea65
-:000000	000000	0000000	jM5D4yA	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/dd/0faf432eefc6ae63d3e6e57234fc8888d720e6
-:000000	000000	0000000	6ZZzCgb	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c7/022009fe12f45aed08dac6375a6cf9f27079c2
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/cc/a5b31e0ee6fd4409a576c8b10c084d53ef863b
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0a/11b00b32fffc0347ca55f7520f5f33fe2f5918
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4f/ad078cbfd5669681e55873606e7c9f29e02dc5
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0f/1b54a7a833d7d0c5206f34a1a6ec94ccb46398
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e0/f13dcfee9ce65b218904cd756389967bf8779c
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/83/5b969b318ddc19ba2abc7617b21af50105ea65
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/dd/0faf432eefc6ae63d3e6e57234fc8888d720e6
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c7/022009fe12f45aed08dac6375a6cf9f27079c2
-commit:PNwO9PeQrOucufys5HDp5zqva8xx8vKVlWOUNf8D16
+:000000	000000	0000000	Qvp0TI1	A	.git/objects/cc/a5b31e0ee6fd4409a576c8b10c084d53ef863b
+:000000	000000	0000000	d29EMCi	A	.git/objects/0a/11b00b32fffc0347ca55f7520f5f33fe2f5918
+:000000	000000	0000000	mYAtnhW	A	.git/objects/4f/ad078cbfd5669681e55873606e7c9f29e02dc5
+:000000	000000	0000000	CBJmeBb	A	.git/objects/0f/1b54a7a833d7d0c5206f34a1a6ec94ccb46398
+:000000	000000	0000000	cge8XpC	A	.git/objects/e0/f13dcfee9ce65b218904cd756389967bf8779c
+:000000	000000	0000000	7auhe7X	A	.git/objects/83/5b969b318ddc19ba2abc7617b21af50105ea65
+:000000	000000	0000000	wYHJx9M	A	.git/objects/dd/0faf432eefc6ae63d3e6e57234fc8888d720e6
+:000000	000000	0000000	2wQKLbj	A	.git/objects/c7/022009fe12f45aed08dac6375a6cf9f27079c2
+2	0	.git/objects/cc/a5b31e0ee6fd4409a576c8b10c084d53ef863b
+1	0	.git/objects/0a/11b00b32fffc0347ca55f7520f5f33fe2f5918
+2	0	.git/objects/4f/ad078cbfd5669681e55873606e7c9f29e02dc5
+1	0	.git/objects/0f/1b54a7a833d7d0c5206f34a1a6ec94ccb46398
+1	0	.git/objects/e0/f13dcfee9ce65b218904cd756389967bf8779c
+1	0	.git/objects/83/5b969b318ddc19ba2abc7617b21af50105ea65
+1	0	.git/objects/dd/0faf432eefc6ae63d3e6e57234fc8888d720e6
+3	0	.git/objects/c7/022009fe12f45aed08dac6375a6cf9f27079c2
+commit:EWMRhC66b5iqZGjM9dyVZQ4ukq20YvHm1bKglxUyFq
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:20:43 +0000
@@ -716,23 +728,23 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	XjeVCtJ	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c2/d7a45879e58641d07ec6483145309455ab0f51
-:000000	000000	0000000	DhhTGfo	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/76/011ba61efa8457057d2b1e44e1f0769bd068da
-:000000	000000	0000000	cmTkGpb	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/9a/65af999fbe9d7acad46cfaba1d2a60715e798f
-:000000	000000	0000000	pz30FJ4	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c8/aeb22670371f75339620d990f6b3346b9e6b90
-:000000	000000	0000000	EM29g1o	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/85/4759200fc1379844faa0d07ba2676c95c6fe68
-:000000	000000	0000000	3ILNois	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/69/c1c660e335d69de6e57df88c1a5e3894a849c3
-:000000	000000	0000000	FS68IWg	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d3/3a0e200417b95175c91592a0ce5ac28efea293
-:000000	000000	0000000	9bh4DTE	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ab/06156feaad77a2ccea0d71f8611b5513f6d82d
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c2/d7a45879e58641d07ec6483145309455ab0f51
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/76/011ba61efa8457057d2b1e44e1f0769bd068da
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/9a/65af999fbe9d7acad46cfaba1d2a60715e798f
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c8/aeb22670371f75339620d990f6b3346b9e6b90
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/85/4759200fc1379844faa0d07ba2676c95c6fe68
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/69/c1c660e335d69de6e57df88c1a5e3894a849c3
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d3/3a0e200417b95175c91592a0ce5ac28efea293
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ab/06156feaad77a2ccea0d71f8611b5513f6d82d
-commit:h0dcsaFwl3wF6cAKZEGg9TxaLETqvy4A05Tg3ntf1g
+:000000	000000	0000000	MLLglKk	A	.git/objects/c2/d7a45879e58641d07ec6483145309455ab0f51
+:000000	000000	0000000	spgfGcF	A	.git/objects/76/011ba61efa8457057d2b1e44e1f0769bd068da
+:000000	000000	0000000	XhLisZK	A	.git/objects/9a/65af999fbe9d7acad46cfaba1d2a60715e798f
+:000000	000000	0000000	NmCiw9t	A	.git/objects/c8/aeb22670371f75339620d990f6b3346b9e6b90
+:000000	000000	0000000	DGGMhoL	A	.git/objects/85/4759200fc1379844faa0d07ba2676c95c6fe68
+:000000	000000	0000000	pDEO9KO	A	.git/objects/69/c1c660e335d69de6e57df88c1a5e3894a849c3
+:000000	000000	0000000	mksG1Rb	A	.git/objects/d3/3a0e200417b95175c91592a0ce5ac28efea293
+:000000	000000	0000000	0RS8CME	A	.git/objects/ab/06156feaad77a2ccea0d71f8611b5513f6d82d
+1	0	.git/objects/c2/d7a45879e58641d07ec6483145309455ab0f51
+2	0	.git/objects/76/011ba61efa8457057d2b1e44e1f0769bd068da
+1	0	.git/objects/9a/65af999fbe9d7acad46cfaba1d2a60715e798f
+2	0	.git/objects/c8/aeb22670371f75339620d990f6b3346b9e6b90
+1	0	.git/objects/85/4759200fc1379844faa0d07ba2676c95c6fe68
+1	0	.git/objects/69/c1c660e335d69de6e57df88c1a5e3894a849c3
+1	0	.git/objects/d3/3a0e200417b95175c91592a0ce5ac28efea293
+3	0	.git/objects/ab/06156feaad77a2ccea0d71f8611b5513f6d82d
+commit:r47lxYYlYBOjw7MSzMLDXIfc0M8ZuBfLKbiMjIpIIK
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:20:08 +0000
@@ -740,25 +752,25 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	tfuJfD4	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f2/2b1eb21910cdedbefbfa24514d894281dc1568
-:000000	000000	0000000	wrIv0tA	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ca/92466b6e8164281e998421953ccc77bc122cde
-:000000	000000	0000000	kFctM5a	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.pack
-:000000	000000	0000000	n4f7VUC	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/80/f21fe9b33e4a04a9c72e332146953fd81c7120
-:000000	000000	0000000	jX41xkl	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4d/d01588846690a6a3817cd4c46571bd5975c3be
-:000000	000000	0000000	uuqnRSk	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/90/ea0fe1a45b7f112cb7a4ba2b240245121e274a
-:000000	000000	0000000	RefZuBN	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bf/3b9b3d279c0d80774a5a8c563975193ccce3ec
-:000000	000000	0000000	EmagGdl	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ce/da70c39fb1667698fe8e6ee46ec24e74dc9c14
-:000000	000000	0000000	p1cGIKc	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/25/bee7081e34eed747eeac89170bbe201748f1c7
-5	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f2/2b1eb21910cdedbefbfa24514d894281dc1568
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ca/92466b6e8164281e998421953ccc77bc122cde
-154	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.pack
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/80/f21fe9b33e4a04a9c72e332146953fd81c7120
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4d/d01588846690a6a3817cd4c46571bd5975c3be
-7	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/90/ea0fe1a45b7f112cb7a4ba2b240245121e274a
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bf/3b9b3d279c0d80774a5a8c563975193ccce3ec
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ce/da70c39fb1667698fe8e6ee46ec24e74dc9c14
-7	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/25/bee7081e34eed747eeac89170bbe201748f1c7
-commit:epm89yR7wfTnskrmVywp9FSRbafyZ1eD62QNku4G2w
+:000000	000000	0000000	0CGyLoY	A	.git/objects/f2/2b1eb21910cdedbefbfa24514d894281dc1568
+:000000	000000	0000000	4zBZaB8	A	.git/objects/ca/92466b6e8164281e998421953ccc77bc122cde
+:000000	000000	0000000	WxnFyhy	A	.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.pack
+:000000	000000	0000000	eYFmPT8	A	.git/objects/80/f21fe9b33e4a04a9c72e332146953fd81c7120
+:000000	000000	0000000	uQk6tWM	A	.git/objects/4d/d01588846690a6a3817cd4c46571bd5975c3be
+:000000	000000	0000000	AiL1eYU	A	.git/objects/90/ea0fe1a45b7f112cb7a4ba2b240245121e274a
+:000000	000000	0000000	JXabfCE	A	.git/objects/bf/3b9b3d279c0d80774a5a8c563975193ccce3ec
+:000000	000000	0000000	LCetrST	A	.git/objects/ce/da70c39fb1667698fe8e6ee46ec24e74dc9c14
+:000000	000000	0000000	SSCdPZT	A	.git/objects/25/bee7081e34eed747eeac89170bbe201748f1c7
+5	0	.git/objects/f2/2b1eb21910cdedbefbfa24514d894281dc1568
+3	0	.git/objects/ca/92466b6e8164281e998421953ccc77bc122cde
+154	0	.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.pack
+3	0	.git/objects/80/f21fe9b33e4a04a9c72e332146953fd81c7120
+2	0	.git/objects/4d/d01588846690a6a3817cd4c46571bd5975c3be
+7	0	.git/objects/90/ea0fe1a45b7f112cb7a4ba2b240245121e274a
+3	0	.git/objects/bf/3b9b3d279c0d80774a5a8c563975193ccce3ec
+4	0	.git/objects/ce/da70c39fb1667698fe8e6ee46ec24e74dc9c14
+7	0	.git/objects/25/bee7081e34eed747eeac89170bbe201748f1c7
+commit:Rjd5IXae7tzb4vST3wBnS3imn3MDreSNypviFqtcso
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:20:08 +0000
@@ -766,25 +778,25 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	cF2TCIp	M	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f2/2b1eb21910cdedbefbfa24514d894281dc1568
-:000000	000000	0000000	PutSQAU	M	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ca/92466b6e8164281e998421953ccc77bc122cde
-:000000	000000	0000000	QbkllNK	M	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.pack
-:000000	000000	0000000	N8v1dj4	M	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/80/f21fe9b33e4a04a9c72e332146953fd81c7120
-:000000	000000	0000000	O3Yv2Fw	M	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4d/d01588846690a6a3817cd4c46571bd5975c3be
-:000000	000000	0000000	YYQkk8F	M	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/90/ea0fe1a45b7f112cb7a4ba2b240245121e274a
-:000000	000000	0000000	69Rrj42	M	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bf/3b9b3d279c0d80774a5a8c563975193ccce3ec
-:000000	000000	0000000	hqfQkjr	M	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ce/da70c39fb1667698fe8e6ee46ec24e74dc9c14
-:000000	000000	0000000	Dqegukd	M	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/25/bee7081e34eed747eeac89170bbe201748f1c7
-5	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/f2/2b1eb21910cdedbefbfa24514d894281dc1568
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ca/92466b6e8164281e998421953ccc77bc122cde
-154	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.pack
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/80/f21fe9b33e4a04a9c72e332146953fd81c7120
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/4d/d01588846690a6a3817cd4c46571bd5975c3be
-7	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/90/ea0fe1a45b7f112cb7a4ba2b240245121e274a
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bf/3b9b3d279c0d80774a5a8c563975193ccce3ec
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ce/da70c39fb1667698fe8e6ee46ec24e74dc9c14
-7	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/25/bee7081e34eed747eeac89170bbe201748f1c7
-commit:Sg28jcKqyQhpt7QUWLuApEOh71b8GjRTd0cdbUSty8
+:000000	000000	0000000	25L3CUZ	M	.git/objects/f2/2b1eb21910cdedbefbfa24514d894281dc1568
+:000000	000000	0000000	tliNCZF	M	.git/objects/ca/92466b6e8164281e998421953ccc77bc122cde
+:000000	000000	0000000	tt6Kceq	M	.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.pack
+:000000	000000	0000000	kXlnml1	M	.git/objects/80/f21fe9b33e4a04a9c72e332146953fd81c7120
+:000000	000000	0000000	R2INh5H	M	.git/objects/4d/d01588846690a6a3817cd4c46571bd5975c3be
+:000000	000000	0000000	IMmCcJN	M	.git/objects/90/ea0fe1a45b7f112cb7a4ba2b240245121e274a
+:000000	000000	0000000	kjYB9Sh	M	.git/objects/bf/3b9b3d279c0d80774a5a8c563975193ccce3ec
+:000000	000000	0000000	BflwOLV	M	.git/objects/ce/da70c39fb1667698fe8e6ee46ec24e74dc9c14
+:000000	000000	0000000	eBBQtS9	M	.git/objects/25/bee7081e34eed747eeac89170bbe201748f1c7
+5	0	.git/objects/f2/2b1eb21910cdedbefbfa24514d894281dc1568
+3	0	.git/objects/ca/92466b6e8164281e998421953ccc77bc122cde
+154	0	.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.pack
+3	0	.git/objects/80/f21fe9b33e4a04a9c72e332146953fd81c7120
+2	0	.git/objects/4d/d01588846690a6a3817cd4c46571bd5975c3be
+7	0	.git/objects/90/ea0fe1a45b7f112cb7a4ba2b240245121e274a
+3	0	.git/objects/bf/3b9b3d279c0d80774a5a8c563975193ccce3ec
+4	0	.git/objects/ce/da70c39fb1667698fe8e6ee46ec24e74dc9c14
+7	0	.git/objects/25/bee7081e34eed747eeac89170bbe201748f1c7
+commit:Or4khudHc3LnM02sptwo7BHqRxOZqUkT6ON2gNL0Jq
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:19:47 +0000
@@ -792,17 +804,17 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	UDSDCnY	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/42/257de984658145164221fa909c3ad3c0c14e97
-:000000	000000	0000000	k86Utwt	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/25/d455297880d5fd4cd7ea455f48dd5dc54568b4
-:000000	000000	0000000	cJmSTkJ	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/da/d5c2e94f1477da2d60a47d075f1c4878dab0a5
-:000000	000000	0000000	eH022gr	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d6/c65fb0b681c3be0e8f0c01283d22550ed0f924
-:000000	000000	0000000	EXONAR0	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6a/6823cfcea6db70d8f2a6e0dcdc97f93d548a26
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/42/257de984658145164221fa909c3ad3c0c14e97
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/25/d455297880d5fd4cd7ea455f48dd5dc54568b4
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/da/d5c2e94f1477da2d60a47d075f1c4878dab0a5
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/d6/c65fb0b681c3be0e8f0c01283d22550ed0f924
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6a/6823cfcea6db70d8f2a6e0dcdc97f93d548a26
-commit:p8L7mlhStGutNAEMvJhCmXj2wai0CBZo94aTSFgeXY
+:000000	000000	0000000	FZSzMXk	A	.git/objects/42/257de984658145164221fa909c3ad3c0c14e97
+:000000	000000	0000000	PN6wJfQ	A	.git/objects/25/d455297880d5fd4cd7ea455f48dd5dc54568b4
+:000000	000000	0000000	TIA2jZ9	A	.git/objects/da/d5c2e94f1477da2d60a47d075f1c4878dab0a5
+:000000	000000	0000000	oMjUDj7	A	.git/objects/d6/c65fb0b681c3be0e8f0c01283d22550ed0f924
+:000000	000000	0000000	JgfOhU7	A	.git/objects/6a/6823cfcea6db70d8f2a6e0dcdc97f93d548a26
+2	0	.git/objects/42/257de984658145164221fa909c3ad3c0c14e97
+1	0	.git/objects/25/d455297880d5fd4cd7ea455f48dd5dc54568b4
+1	0	.git/objects/da/d5c2e94f1477da2d60a47d075f1c4878dab0a5
+1	0	.git/objects/d6/c65fb0b681c3be0e8f0c01283d22550ed0f924
+2	0	.git/objects/6a/6823cfcea6db70d8f2a6e0dcdc97f93d548a26
+commit:RpAaAN2tjhIxI0XOyW0jbhe1Z8X90wjvxKlBAKsC6R
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:19:29 +0000
@@ -810,9 +822,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	d8ndAgJ	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b1/d56aa6b2cdb0268aa3c2980a9b8d973ed29d41
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b1/d56aa6b2cdb0268aa3c2980a9b8d973ed29d41
-commit:uqY28yWBxhRzg6O7UyuZ10p9igQo3H8UhN1rYzOo4X
+:000000	000000	0000000	sdzrNQC	A	.git/objects/b1/d56aa6b2cdb0268aa3c2980a9b8d973ed29d41
+1	0	.git/objects/b1/d56aa6b2cdb0268aa3c2980a9b8d973ed29d41
+commit:APxxyd0ckfrfSlxMGCcoXcocTEatKLTnLa8KTVGUND
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:19:13 +0000
@@ -820,17 +832,17 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	P3BqsEo	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5b/7abc2030ddd70c73fc543a39738ed5f029b012
-:000000	000000	0000000	FsuLEBD	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/27/a945c4ef24e27221340d6bfeafee023cfbfd4d
-:000000	000000	0000000	uwyBR1r	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a0/cf7f7de8ee95d93533e207fb1524e0756a647f
-:000000	000000	0000000	Lfiuq2Y	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bb/5df2dcae6fa82e09a9e7fe8e75fb8983459582
-:000000	000000	0000000	8vN7uWz	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/41/7ed663d89692c5638306cb4170ae8a40f5b3ab
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5b/7abc2030ddd70c73fc543a39738ed5f029b012
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/27/a945c4ef24e27221340d6bfeafee023cfbfd4d
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a0/cf7f7de8ee95d93533e207fb1524e0756a647f
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bb/5df2dcae6fa82e09a9e7fe8e75fb8983459582
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/41/7ed663d89692c5638306cb4170ae8a40f5b3ab
-commit:kL9iQeNkr3rT5osYNQszHbgfnuW8bupa2N0GX4Amul
+:000000	000000	0000000	OQfQqwq	A	.git/objects/5b/7abc2030ddd70c73fc543a39738ed5f029b012
+:000000	000000	0000000	2KBnylJ	A	.git/objects/27/a945c4ef24e27221340d6bfeafee023cfbfd4d
+:000000	000000	0000000	M3p2ec5	A	.git/objects/a0/cf7f7de8ee95d93533e207fb1524e0756a647f
+:000000	000000	0000000	LVMQHO0	A	.git/objects/bb/5df2dcae6fa82e09a9e7fe8e75fb8983459582
+:000000	000000	0000000	6PlaMHG	A	.git/objects/41/7ed663d89692c5638306cb4170ae8a40f5b3ab
+1	0	.git/objects/5b/7abc2030ddd70c73fc543a39738ed5f029b012
+2	0	.git/objects/27/a945c4ef24e27221340d6bfeafee023cfbfd4d
+1	0	.git/objects/a0/cf7f7de8ee95d93533e207fb1524e0756a647f
+1	0	.git/objects/bb/5df2dcae6fa82e09a9e7fe8e75fb8983459582
+2	0	.git/objects/41/7ed663d89692c5638306cb4170ae8a40f5b3ab
+commit:ioin3dI7RZA2xatAAICZIk4r8jmA2ArktXvkmpkTaP
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:19:00 +0000
@@ -838,9 +850,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	IyaWR8T	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/51/da658dfd12fb998bf1a94e012bae97602a48d8
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/51/da658dfd12fb998bf1a94e012bae97602a48d8
-commit:LLD743ePSnzK70213pAnpB67nOQtTRm8HKf1YVz2ZW
+:000000	000000	0000000	pmg9FUj	A	.git/objects/51/da658dfd12fb998bf1a94e012bae97602a48d8
+1	0	.git/objects/51/da658dfd12fb998bf1a94e012bae97602a48d8
+commit:vsXouNEW0jpVHNW8ngBMkNcqRP6W96BzYcArJjEm8c
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:18:36 +0000
@@ -848,11 +860,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	SWvLkI7	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a9/c6c0eb11338dbd2376b8f4b21289cc752dfef3
-:000000	000000	0000000	s7vdI93	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bc/bb527698ac858fee2ae465c2a5b5c74167621c
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a9/c6c0eb11338dbd2376b8f4b21289cc752dfef3
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/bc/bb527698ac858fee2ae465c2a5b5c74167621c
-commit:skFwCGfyxFw24pUyRonF3WQRdG8BmqEeeqRs9FyamX
+:000000	000000	0000000	4EPevSE	A	.git/objects/a9/c6c0eb11338dbd2376b8f4b21289cc752dfef3
+:000000	000000	0000000	8RWJ4Mn	A	.git/objects/bc/bb527698ac858fee2ae465c2a5b5c74167621c
+1	0	.git/objects/a9/c6c0eb11338dbd2376b8f4b21289cc752dfef3
+2	0	.git/objects/bc/bb527698ac858fee2ae465c2a5b5c74167621c
+commit:G4WPkf9akFdqNAYmeQPteu5kRhVF7GitIWVruJozYr
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:18:03 +0000
@@ -860,9 +872,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	OCyaaHE	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/29/7cdef3c9115b86bc3da7b7ab0197dab9ebe694
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/29/7cdef3c9115b86bc3da7b7ab0197dab9ebe694
-commit:VNR9qonQ5ed0tR4HCxGXQptFGRvqL9BsnQNgba39bS
+:000000	000000	0000000	BmSe6zC	A	.git/objects/29/7cdef3c9115b86bc3da7b7ab0197dab9ebe694
+1	0	.git/objects/29/7cdef3c9115b86bc3da7b7ab0197dab9ebe694
+commit:zt5H6McAGqtHXr5a2ZrKtyMp686uGjjKyzvU5AYTxb
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:17:15 +0000
@@ -870,25 +882,25 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	NBAnX9m	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/90/9032e73159a3b9e49aa3cb2650c6b5c07b6e12
-:000000	000000	0000000	gFHhNQt	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b3/993a4c4791beec4e9f7247878e9e41095aefc8
-:000000	000000	0000000	D9KTtAn	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/be/05aa536d23a2db8ab88e664768012ffbe0f5f6
-:000000	000000	0000000	FiqJbzy	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c0/3804a2c425edc5bf505ccc5bf9d5c30d4a3991
-:000000	000000	0000000	L76wzIj	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ff/6c7a3de65450b504c6f968eb5213d59264e14d
-:000000	000000	0000000	QBGLFdz	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a8/de430298a800abf3965475597526b235718dac
-:000000	000000	0000000	mRNvmRJ	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/2a/8c68740aa9fa8264f016962a794e87095cde9f
-:000000	000000	0000000	BU76slc	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0f/a78319f1fa7cea9e281e4880b4efa6b669f701
-:000000	000000	0000000	tZW4Pgo	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5a/04e11b8423f7a2bab0a77acdbc7607a14c8ebd
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/90/9032e73159a3b9e49aa3cb2650c6b5c07b6e12
-3	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b3/993a4c4791beec4e9f7247878e9e41095aefc8
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/be/05aa536d23a2db8ab88e664768012ffbe0f5f6
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/c0/3804a2c425edc5bf505ccc5bf9d5c30d4a3991
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/ff/6c7a3de65450b504c6f968eb5213d59264e14d
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a8/de430298a800abf3965475597526b235718dac
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/2a/8c68740aa9fa8264f016962a794e87095cde9f
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/0f/a78319f1fa7cea9e281e4880b4efa6b669f701
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5a/04e11b8423f7a2bab0a77acdbc7607a14c8ebd
-commit:s1kTNro5KpYhZCAfWYLYxGZTYgu5uTPZo50IvSdz3I
+:000000	000000	0000000	Sp2VgqA	A	.git/objects/90/9032e73159a3b9e49aa3cb2650c6b5c07b6e12
+:000000	000000	0000000	3ivL7Ew	A	.git/objects/b3/993a4c4791beec4e9f7247878e9e41095aefc8
+:000000	000000	0000000	8mXOIA3	A	.git/objects/be/05aa536d23a2db8ab88e664768012ffbe0f5f6
+:000000	000000	0000000	RIRlXEB	A	.git/objects/c0/3804a2c425edc5bf505ccc5bf9d5c30d4a3991
+:000000	000000	0000000	QYC2JjK	A	.git/objects/ff/6c7a3de65450b504c6f968eb5213d59264e14d
+:000000	000000	0000000	OcZBnmF	A	.git/objects/a8/de430298a800abf3965475597526b235718dac
+:000000	000000	0000000	XyZgKpV	A	.git/objects/2a/8c68740aa9fa8264f016962a794e87095cde9f
+:000000	000000	0000000	Ri1WyJj	A	.git/objects/0f/a78319f1fa7cea9e281e4880b4efa6b669f701
+:000000	000000	0000000	dMpYeIW	A	.git/objects/5a/04e11b8423f7a2bab0a77acdbc7607a14c8ebd
+1	0	.git/objects/90/9032e73159a3b9e49aa3cb2650c6b5c07b6e12
+3	0	.git/objects/b3/993a4c4791beec4e9f7247878e9e41095aefc8
+2	0	.git/objects/be/05aa536d23a2db8ab88e664768012ffbe0f5f6
+1	0	.git/objects/c0/3804a2c425edc5bf505ccc5bf9d5c30d4a3991
+1	0	.git/objects/ff/6c7a3de65450b504c6f968eb5213d59264e14d
+1	0	.git/objects/a8/de430298a800abf3965475597526b235718dac
+1	0	.git/objects/2a/8c68740aa9fa8264f016962a794e87095cde9f
+1	0	.git/objects/0f/a78319f1fa7cea9e281e4880b4efa6b669f701
+2	0	.git/objects/5a/04e11b8423f7a2bab0a77acdbc7607a14c8ebd
+commit:KYkmbNtps6kZCqUYlxWB2ODgqQ30pXlLDOAbjo5XKD
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:16:43 +0000
@@ -896,9 +908,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	OK9z85f	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/67/b311c9a238f11934b4734367f1568bc5504809
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/67/b311c9a238f11934b4734367f1568bc5504809
-commit:9kAB3EM498y5b06fKLbGODrD79ublaOl8cTfXAfbxs
+:000000	000000	0000000	APCWEKZ	A	.git/objects/67/b311c9a238f11934b4734367f1568bc5504809
+1	0	.git/objects/67/b311c9a238f11934b4734367f1568bc5504809
+commit:zKWNXaWyfhVZ1XLMBGja3LWIkUQAhGYGeyQGgrFdC0
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:16:29 +0000
@@ -906,23 +918,23 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	dKMIYNl	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/2c/406f8c8936043b1721b1ab24eba03f43636772
-:000000	000000	0000000	mAz8hzv	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b5/e9ab2417fa20d39ab959fa7cc2843e69d4f03d
-:000000	000000	0000000	6tlEOD3	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/dd/035fee867e521943a9d9b52e72be8a2ae0b358
-:000000	000000	0000000	mLZ2VYP	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b5/30cfa8ee14b75b885337feecb2c9fb92543f19
-:000000	000000	0000000	RKDnshG	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/43/0ef9102a6c556c984418b5b470329c1a4c74b6
-:000000	000000	0000000	yoYFoNp	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/38/a70bbebcf9d0c7691862d493dd2f73c56dcf8c
-:000000	000000	0000000	WuJdY0U	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/41/fe3d788d1eab8b1468ec0002be151c91fd3132
-:000000	000000	0000000	qXVgKnT	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6e/d199e2c9ccdbe929cdc2a5cf5ea2f157b12615
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/2c/406f8c8936043b1721b1ab24eba03f43636772
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b5/e9ab2417fa20d39ab959fa7cc2843e69d4f03d
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/dd/035fee867e521943a9d9b52e72be8a2ae0b358
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b5/30cfa8ee14b75b885337feecb2c9fb92543f19
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/43/0ef9102a6c556c984418b5b470329c1a4c74b6
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/38/a70bbebcf9d0c7691862d493dd2f73c56dcf8c
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/41/fe3d788d1eab8b1468ec0002be151c91fd3132
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/6e/d199e2c9ccdbe929cdc2a5cf5ea2f157b12615
-commit:81AtYV1pRilrXjjiRt3Fgdzcw2Y1NcdW8tKGBvlvW9
+:000000	000000	0000000	Q67S3aj	A	.git/objects/2c/406f8c8936043b1721b1ab24eba03f43636772
+:000000	000000	0000000	h56OOXc	A	.git/objects/b5/e9ab2417fa20d39ab959fa7cc2843e69d4f03d
+:000000	000000	0000000	y9AB6zM	A	.git/objects/dd/035fee867e521943a9d9b52e72be8a2ae0b358
+:000000	000000	0000000	oEppgIs	A	.git/objects/b5/30cfa8ee14b75b885337feecb2c9fb92543f19
+:000000	000000	0000000	pLa3WK4	A	.git/objects/43/0ef9102a6c556c984418b5b470329c1a4c74b6
+:000000	000000	0000000	eIGV4DQ	A	.git/objects/38/a70bbebcf9d0c7691862d493dd2f73c56dcf8c
+:000000	000000	0000000	IGjYF2i	A	.git/objects/41/fe3d788d1eab8b1468ec0002be151c91fd3132
+:000000	000000	0000000	IsoiE5c	A	.git/objects/6e/d199e2c9ccdbe929cdc2a5cf5ea2f157b12615
+1	0	.git/objects/2c/406f8c8936043b1721b1ab24eba03f43636772
+1	0	.git/objects/b5/e9ab2417fa20d39ab959fa7cc2843e69d4f03d
+1	0	.git/objects/dd/035fee867e521943a9d9b52e72be8a2ae0b358
+1	0	.git/objects/b5/30cfa8ee14b75b885337feecb2c9fb92543f19
+1	0	.git/objects/43/0ef9102a6c556c984418b5b470329c1a4c74b6
+1	0	.git/objects/38/a70bbebcf9d0c7691862d493dd2f73c56dcf8c
+1	0	.git/objects/41/fe3d788d1eab8b1468ec0002be151c91fd3132
+2	0	.git/objects/6e/d199e2c9ccdbe929cdc2a5cf5ea2f157b12615
+commit:qhqMojJ3ACrJ44H0qPeNritivoydddB1va5DKZFsTy
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:15:26 +0000
@@ -930,17 +942,17 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	zc8gsI3	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a2/75ac4ab7350ade8678cb71bd00b90bfad10865
-:000000	000000	0000000	hd3qxJf	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/62/fcc45da98aae736d6746c2d49973bb4ad977c8
-:000000	000000	0000000	kUJ3aab	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/15/2b265ec6cf886e90d96bd6a4ebbb5716d79696
-:000000	000000	0000000	47p2RP5	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e0/73af8b6bfdb4fe920c8ed81d1622f48380e13d
-:000000	000000	0000000	TPkqHkD	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b9/ef2df879b3e185543af28217ad301618fefc89
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/a2/75ac4ab7350ade8678cb71bd00b90bfad10865
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/62/fcc45da98aae736d6746c2d49973bb4ad977c8
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/15/2b265ec6cf886e90d96bd6a4ebbb5716d79696
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/e0/73af8b6bfdb4fe920c8ed81d1622f48380e13d
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/b9/ef2df879b3e185543af28217ad301618fefc89
-commit:2FVxOEGYYxB0XyRxwHE302N0kuTF9B6p9OYEarBEft
+:000000	000000	0000000	rYy8ZOq	A	.git/objects/a2/75ac4ab7350ade8678cb71bd00b90bfad10865
+:000000	000000	0000000	1S8HAfK	A	.git/objects/62/fcc45da98aae736d6746c2d49973bb4ad977c8
+:000000	000000	0000000	MDsSteS	A	.git/objects/15/2b265ec6cf886e90d96bd6a4ebbb5716d79696
+:000000	000000	0000000	wlAFaiw	A	.git/objects/e0/73af8b6bfdb4fe920c8ed81d1622f48380e13d
+:000000	000000	0000000	XYbMJlb	A	.git/objects/b9/ef2df879b3e185543af28217ad301618fefc89
+1	0	.git/objects/a2/75ac4ab7350ade8678cb71bd00b90bfad10865
+1	0	.git/objects/62/fcc45da98aae736d6746c2d49973bb4ad977c8
+1	0	.git/objects/15/2b265ec6cf886e90d96bd6a4ebbb5716d79696
+1	0	.git/objects/e0/73af8b6bfdb4fe920c8ed81d1622f48380e13d
+1	0	.git/objects/b9/ef2df879b3e185543af28217ad301618fefc89
+commit:3aXo6M3NTXKUXowt64HLE2heIkmCwffbVNa1IqgBX2
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:15:26 +0000
@@ -948,13 +960,13 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	sxzkIxl	M	/Users/denisfeier/Documents/git-log-file-generator/.git/COMMIT_EDITMSG
-:000000	000000	0000000	yXc39SI	M	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/HEAD
-:000000	000000	0000000	Hi8qIzZ	M	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/heads/master
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/COMMIT_EDITMSG
-23	0	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/HEAD
-23	0	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/heads/master
-commit:MvD4ltd3usvxSYj7AS5CPdB6pkzWxiC3hxNPbq9ypg
+:000000	000000	0000000	7Vojs4C	M	.git/COMMIT_EDITMSG
+:000000	000000	0000000	pXbGfeL	M	.git/logs/HEAD
+:000000	000000	0000000	7XJVnB6	M	.git/logs/refs/heads/master
+1	0	.git/COMMIT_EDITMSG
+24	0	.git/logs/HEAD
+24	0	.git/logs/refs/heads/master
+commit:zZOOY4bZZHsgrd8SUgVDZN07Qq5gCYdNYzAs0rksyL
 author:denisfeier
 email:denisfeier@generated.com
 date:Sat, 07 Nov 2020 16:14:59 +0000
@@ -962,9 +974,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	k2uTXSj	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5c/a6fc198fd21f17c7c8cc0bfd2336dfc3ef100a
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/5c/a6fc198fd21f17c7c8cc0bfd2336dfc3ef100a
-commit:CCuVQgwZ2ASABFQhWzv8sAEd7J4xTgQJlQe6zujYql
+:000000	000000	0000000	hELlwUI	A	.git/objects/5c/a6fc198fd21f17c7c8cc0bfd2336dfc3ef100a
+4	0	.git/objects/5c/a6fc198fd21f17c7c8cc0bfd2336dfc3ef100a
+commit:fKRl42VvL4PhiRfoGqs72vxvoPhdKurEKyILWdcj9d
 author:denisfeier
 email:denisfeier@generated.com
 date:Thu, 29 Oct 2020 23:44:59 +0000
@@ -972,9 +984,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	SDZyQNB	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/uiDesigner.xml
-124	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/uiDesigner.xml
-commit:UWbhx77BgSRzQRgFxDDu4qSvGAS3fhZMQyBQyPG24Y
+:000000	000000	0000000	PkzxA1g	A	.idea/uiDesigner.xml
+124	0	.idea/uiDesigner.xml
+commit:CwBFvSOtny7MITNqCyhnFSVDv3n2UJk328vmCT3dR7
 author:denisfeier
 email:denisfeier@generated.com
 date:Thu, 29 Oct 2020 23:16:37 +0000
@@ -982,9 +994,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	nGD0RkK	A	/Users/denisfeier/Documents/git-log-file-generator/Readme.md
-245	0	/Users/denisfeier/Documents/git-log-file-generator/Readme.md
-commit:7XcL4amxm4h8fJaPvN7xindEviPr5HCgFITqravQRl
+:000000	000000	0000000	xKKxE33	A	Readme.md
+245	0	Readme.md
+commit:mouZuENTT3NPGBi5H3nyI1CPHRBlJCqGstMI5OjMM5
 author:denisfeier
 email:denisfeier@generated.com
 date:Thu, 29 Oct 2020 23:16:37 +0000
@@ -992,9 +1004,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	rW9DicB	M	/Users/denisfeier/Documents/git-log-file-generator/Readme.md
-245	0	/Users/denisfeier/Documents/git-log-file-generator/Readme.md
-commit:7TbZxC4a73l5O1oVthG5MbW5qEl8Tc6BzVXYJIoyuK
+:000000	000000	0000000	aqLltQf	M	Readme.md
+245	0	Readme.md
+commit:pCYSJsFk9TmqC5FapulBchhDMoHPDTG1z5jlrFqNub
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:46:03 +0000
@@ -1002,9 +1014,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	4rqIif5	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/workspace.xml
-225	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/workspace.xml
-commit:B2fIdXBeN4niewPwcl3wRi1QxQy80qK7q6SNaHO33i
+:000000	000000	0000000	nJCwZkV	A	.idea/workspace.xml
+226	0	.idea/workspace.xml
+commit:EEu4W2dhwNlWrEswQzXyiojuTSsHcqJ635FgD1vHDN
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:46:03 +0000
@@ -1012,9 +1024,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	Z58m95K	M	/Users/denisfeier/Documents/git-log-file-generator/.idea/workspace.xml
-225	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/workspace.xml
-commit:VvA4tEeT6SI5GubmsvLYfmkajhA2spXA7I12AS21Se
+:000000	000000	0000000	mq1otwf	M	.idea/workspace.xml
+226	0	.idea/workspace.xml
+commit:H4SlmhoLk2ipJwDKIPkEWhJxuieZu3WbTIgwZ4ow4G
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:41:44 +0000
@@ -1022,31 +1034,31 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	bmTKVTI	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/.name
-:000000	000000	0000000	oUTDs3f	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/vcs.xml
-:000000	000000	0000000	e5V7ov2	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/encodings.xml
-:000000	000000	0000000	tgu1vvJ	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/modules.xml
-:000000	000000	0000000	LmMGrSN	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/jarRepositories.xml
-:000000	000000	0000000	iO1M1l5	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
-:000000	000000	0000000	lluCtfW	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
-:000000	000000	0000000	dSf0U2Q	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml
-:000000	000000	0000000	hZctF5k	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml
-:000000	000000	0000000	N7ZJ0D9	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml
-:000000	000000	0000000	xWIeG7G	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml
-:000000	000000	0000000	1Tay0uA	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/.name
-6	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/vcs.xml
-7	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/encodings.xml
-8	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/modules.xml
-20	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/jarRepositories.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml
-commit:Mt09jTdEx9r4KfZHMshBtdKRwe0i2ZwpjjBkjTEfEA
+:000000	000000	0000000	ceG0sb1	A	.idea/.name
+:000000	000000	0000000	msppB3L	A	.idea/vcs.xml
+:000000	000000	0000000	AnA7sxV	A	.idea/encodings.xml
+:000000	000000	0000000	PqOBREk	A	.idea/modules.xml
+:000000	000000	0000000	3Uu58PF	A	.idea/jarRepositories.xml
+:000000	000000	0000000	HPvV74Z	A	.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
+:000000	000000	0000000	fNWbN1A	A	.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
+:000000	000000	0000000	xovCggs	A	.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml
+:000000	000000	0000000	cDrornq	A	.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml
+:000000	000000	0000000	0gH9pyX	A	.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml
+:000000	000000	0000000	jFJi1XS	A	.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml
+:000000	000000	0000000	llBr19w	A	.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml
+1	0	.idea/.name
+6	0	.idea/vcs.xml
+7	0	.idea/encodings.xml
+8	0	.idea/modules.xml
+20	0	.idea/jarRepositories.xml
+13	0	.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
+13	0	.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
+13	0	.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml
+13	0	.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml
+13	0	.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml
+13	0	.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml
+13	0	.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml
+commit:8KzXA8VPIFv7PLkrGeLl9PUykZT7T1JEiuys7rpyKO
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:41:44 +0000
@@ -1054,9 +1066,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	LKdtXr8	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/misc.xml
-11	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/misc.xml
-commit:wh6Hn4jeNINUAUvcPoqBuSDgx1cygudQbJs1PDpNVZ
+:000000	000000	0000000	ciecdWb	A	.idea/misc.xml
+11	0	.idea/misc.xml
+commit:aDb7lPk2sLpnmIgqy8Px6PZsKvCLspSSQBn3pPZenr
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:41:44 +0000
@@ -1064,11 +1076,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	jjPKwnO	A	/Users/denisfeier/Documents/git-log-file-generator/GitLogGenerator.iml
-:000000	000000	0000000	BlINqxd	A	/Users/denisfeier/Documents/git-log-file-generator/.idea/compiler.xml
-27	0	/Users/denisfeier/Documents/git-log-file-generator/GitLogGenerator.iml
-17	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/compiler.xml
-commit:YZoQWgf1U8AfTc0g4oaPFMaxKRlewzXEzwAvzeU4ZL
+:000000	000000	0000000	5c6PvCr	A	GitLogGenerator.iml
+:000000	000000	0000000	2o7VXfJ	A	.idea/compiler.xml
+27	0	GitLogGenerator.iml
+17	0	.idea/compiler.xml
+commit:gjrLKcimOik0Vh1L9rFOdQ7TFooRs0LqodzalldTxt
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:41:44 +0000
@@ -1076,9 +1088,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	eGwKQMn	M	/Users/denisfeier/Documents/git-log-file-generator/.idea/misc.xml
-11	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/misc.xml
-commit:uayWT2DXERl5TUcCocP3PsWpc5tfXnXTvbIkDix6ry
+:000000	000000	0000000	mon7iou	M	.idea/misc.xml
+11	0	.idea/misc.xml
+commit:LvCxk1llxg4OFuT5FtdFI1qHmpg6saUnJDduuszaVk
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:41:44 +0000
@@ -1086,11 +1098,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	TIUHr7O	M	/Users/denisfeier/Documents/git-log-file-generator/GitLogGenerator.iml
-:000000	000000	0000000	pT7SfZu	M	/Users/denisfeier/Documents/git-log-file-generator/.idea/compiler.xml
-27	0	/Users/denisfeier/Documents/git-log-file-generator/GitLogGenerator.iml
-17	0	/Users/denisfeier/Documents/git-log-file-generator/.idea/compiler.xml
-commit:WtALlr1RbYfDALkPoL7xw7FXe6XZn4RQ6AQLWgi7iQ
+:000000	000000	0000000	x3j8LRU	M	GitLogGenerator.iml
+:000000	000000	0000000	hV1PgAI	M	.idea/compiler.xml
+27	0	GitLogGenerator.iml
+17	0	.idea/compiler.xml
+commit:ISZdh0IsuAZxHwCtACCS5nP0JDLffuAq1r537Tfp7R
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:47 +0000
@@ -1098,11 +1110,11 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	LhXLRMN	A	/Users/denisfeier/Documents/git-log-file-generator/src/.DS_Store
-:000000	000000	0000000	w8Ja8gC	A	/Users/denisfeier/Documents/git-log-file-generator/.DS_Store
-4	0	/Users/denisfeier/Documents/git-log-file-generator/src/.DS_Store
-2	0	/Users/denisfeier/Documents/git-log-file-generator/.DS_Store
-commit:wa7xaPAyqsXZTijJF5iEgclpxh9liAKwwVAIi97pk4
+:000000	000000	0000000	rWntXqJ	A	src/.DS_Store
+:000000	000000	0000000	YpRr7EQ	A	.DS_Store
+4	0	src/.DS_Store
+2	0	.DS_Store
+commit:pHtR62MX8posiPRabbUxMsMKS4y9dtQIcdaTYYItTJ
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1110,17 +1122,17 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	jMWTQkk	A	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.idx
-:000000	000000	0000000	PqBVQ3b	A	/Users/denisfeier/Documents/git-log-file-generator/.git/packed-refs
-:000000	000000	0000000	mLFeTDh	A	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/remotes/origin/HEAD
-:000000	000000	0000000	UMuZVS6	A	/Users/denisfeier/Documents/git-log-file-generator/.git/refs/remotes/origin/HEAD
-:000000	000000	0000000	xWUkD0t	A	/Users/denisfeier/Documents/git-log-file-generator/.git/HEAD
-41	0	/Users/denisfeier/Documents/git-log-file-generator/.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.idx
-4	0	/Users/denisfeier/Documents/git-log-file-generator/.git/packed-refs
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/logs/refs/remotes/origin/HEAD
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/refs/remotes/origin/HEAD
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/HEAD
-commit:7b5hcbWdBKA4T5bGxVIHEw8PR8XcrlqKEbQV2vIYeL
+:000000	000000	0000000	IU3fGJf	A	.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.idx
+:000000	000000	0000000	Xte2M0U	A	.git/packed-refs
+:000000	000000	0000000	YQwhyVR	A	.git/logs/refs/remotes/origin/HEAD
+:000000	000000	0000000	jTKbqLc	A	.git/refs/remotes/origin/HEAD
+:000000	000000	0000000	HAfrFdA	A	.git/HEAD
+41	0	.git/objects/pack/pack-03238759235e53506d48114106e34ff57ffec775.idx
+4	0	.git/packed-refs
+1	0	.git/logs/refs/remotes/origin/HEAD
+1	0	.git/refs/remotes/origin/HEAD
+1	0	.git/HEAD
+commit:GDl9pFtXYz4awQWl2BISpWYFDym39VzjTFnUp1lZo2
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1128,9 +1140,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	Hj6L5Nv	A	/Users/denisfeier/Documents/git-log-file-generator/.gitignore
-9	0	/Users/denisfeier/Documents/git-log-file-generator/.gitignore
-commit:ufkjLAspYZ1nmVuQT7jWkyxnUeoJraDrSIrNxFpCdu
+:000000	000000	0000000	R5NEHUX	A	.gitignore
+9	0	.gitignore
+commit:AdKxabHKCrHOaIZG4FJ7jPP9R9bmihWgWSIp0mMrCR
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1138,17 +1150,17 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	WPidy7M	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
-:000000	000000	0000000	XkofG4L	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
-:000000	000000	0000000	hnBcrbs	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/Threshold.java
-:000000	000000	0000000	fXfItcN	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
-:000000	000000	0000000	ZW94KQQ	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
-42	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
-30	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
-16	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/Threshold.java
-7	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
-56	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
-commit:h4wjvecXuxhoU4JlmUEF5mRZVwRZ3htX97BXN3YLyF
+:000000	000000	0000000	vk98Gg9	A	src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
+:000000	000000	0000000	kCZMasm	A	src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
+:000000	000000	0000000	OPX44JJ	A	src/main/java/org/dxworks/logGenerator/config/Threshold.java
+:000000	000000	0000000	Fbh1HKS	A	src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
+:000000	000000	0000000	G3vGiry	A	src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
+42	0	src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
+30	0	src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
+16	0	src/main/java/org/dxworks/logGenerator/config/Threshold.java
+7	0	src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
+56	0	src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
+commit:lDzZPwbCMpGNDdUrh3szwDjR0PFoY3fc9EtGvLbn0o
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1156,15 +1168,15 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	EfnfVlp	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
-:000000	000000	0000000	APTyxFJ	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
-:000000	000000	0000000	O3QPlEi	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
-:000000	000000	0000000	UOBLhdq	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/Config.java
-114	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
-88	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
-11	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
-26	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/Config.java
-commit:6rLBHiMj1xKyESaY2H4pdGSAQ57W57i56kHYWEJyE2
+:000000	000000	0000000	edu1CpM	A	src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
+:000000	000000	0000000	zgVRYE0	A	src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
+:000000	000000	0000000	0LInJdi	A	src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
+:000000	000000	0000000	b2KjBgX	A	src/main/java/org/dxworks/logGenerator/config/Config.java
+114	0	src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
+88	0	src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
+11	0	src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
+26	0	src/main/java/org/dxworks/logGenerator/config/Config.java
+commit:iuZrG5FyiPUwKSlNYgAVYLWu9EDGp9HOGbbWOLuLxR
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1172,9 +1184,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	cnyyKri	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/.globs1
-3	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/.globs1
-commit:sCwvEOsmzZ4y8FBHI74nbskpr8MVBy3vINLR86Gfr5
+:000000	000000	0000000	w65SzHG	A	src/main/resources/.globs1
+3	0	src/main/resources/.globs1
+commit:Ke8jex2P6wtsNM7pv7R85zwrF9JKvdoDaEOQf0lyPD
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1182,9 +1194,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	OZpnWNf	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/config.yml
-6	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/config.yml
-commit:yKyH6l7kl55g3oGhRrY4NU7A09yYr7cWzqQ5jYEtIQ
+:000000	000000	0000000	XQqH6Iv	A	src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
+102	0	src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
+commit:TXxy6hfC6JEauT9sIqYSuW8dr7HCIe2O9ZrczzpUDY
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1192,9 +1204,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	sYpdkg9	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
-102	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
-commit:Bz1bwnxejEp9M2WlqipladVbCb8bMbCJZeeDBienEp
+:000000	000000	0000000	TnS02sL	A	src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
+122	0	src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
+commit:f9L0sBVyG88li6JhSSUcChM7voWWyeYiUp0sJxi97h
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1202,9 +1214,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	T67n3E7	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
-122	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
-commit:IW2cCQbzmmz7jPeAi1B1GQCSpylzv5Io7rkOw1GNJM
+:000000	000000	0000000	yIvC54T	A	src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
+87	0	src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
+commit:HHV001byDPnNtf0ZPah26VYBTQUV1iq62TrlwsbA3t
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1212,9 +1224,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	sfz5vkV	A	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
-87	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
-commit:fNE24GLaYfvFIQp0F7aI7CgwwUb49dnbefKg0K4PAc
+:000000	000000	0000000	7f1WLN7	A	src/main/resources/config.yml
+6	0	src/main/resources/config.yml
+commit:niGSXiXpttgalh150NBUe5Z3X924FZ1l6WfuC1m913
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1222,9 +1234,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	5qB8cu2	A	/Users/denisfeier/Documents/git-log-file-generator/pom.xml
-89	0	/Users/denisfeier/Documents/git-log-file-generator/pom.xml
-commit:LxcTEg5vuRptuw3bZvlgbVySv5SZ9poK6BsVwSQbZ0
+:000000	000000	0000000	Px20wEC	A	pom.xml
+101	0	pom.xml
+commit:bYi2NSaEDdSsASEEeN0Fbkqot0XH7TXU3SdVYfEOoh
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1232,9 +1244,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	3OLwWjm	M	/Users/denisfeier/Documents/git-log-file-generator/.gitignore
-9	0	/Users/denisfeier/Documents/git-log-file-generator/.gitignore
-commit:3hTkUVQQ99VffyiJ14yfh5Hbt1I21pTWaPQJOBIPl6
+:000000	000000	0000000	mEdMnr9	M	.gitignore
+9	0	.gitignore
+commit:CpV9zXmKiSBIEWQHzEpe4Bfp3NN9O8yEPAdoOaRZFk
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1242,17 +1254,17 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	O2ptvCG	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
-:000000	000000	0000000	PBWLzhX	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
-:000000	000000	0000000	PjCm282	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/Threshold.java
-:000000	000000	0000000	QmR9ohp	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
-:000000	000000	0000000	cwtxnrX	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
-42	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
-30	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
-16	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/Threshold.java
-7	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
-56	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
-commit:Dv3Jj22YKhBelhCGlVDQBmaYJw1LMWNIesXpaYKdl6
+:000000	000000	0000000	Y6reOHi	M	src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
+:000000	000000	0000000	YjOXj2v	M	src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
+:000000	000000	0000000	6Yd7UoO	M	src/main/java/org/dxworks/logGenerator/config/Threshold.java
+:000000	000000	0000000	Utsqt7o	M	src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
+:000000	000000	0000000	qegUZqS	M	src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
+42	0	src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
+30	0	src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
+16	0	src/main/java/org/dxworks/logGenerator/config/Threshold.java
+7	0	src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
+56	0	src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
+commit:SK08uFa5S064Lw33oiLzZ2dLIeIysnm8ErAhmLHlVG
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1260,15 +1272,15 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	KCJVSFl	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
-:000000	000000	0000000	xVvDXMS	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
-:000000	000000	0000000	LW3qqR6	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
-:000000	000000	0000000	fTZ2hCn	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/Config.java
-114	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
-88	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
-11	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
-26	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/config/Config.java
-commit:wsfNVBY0AnWM6s7rF8uhNCQtEpBPxvSsgDAZHvVHkF
+:000000	000000	0000000	ZcA9egb	M	src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
+:000000	000000	0000000	lZwpJA9	M	src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
+:000000	000000	0000000	zcaAfil	M	src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
+:000000	000000	0000000	XUgJUka	M	src/main/java/org/dxworks/logGenerator/config/Config.java
+114	0	src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
+88	0	src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
+11	0	src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
+26	0	src/main/java/org/dxworks/logGenerator/config/Config.java
+commit:PWQzXIyEBXDoKIDZ80hUDrITl58IBJ1zhDFLRd1H0H
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1276,9 +1288,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	9q4pcZv	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/.globs1
-3	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/.globs1
-commit:sBu0mGLgpvLw4setxFdfYraTWn5rFykft8g2rd16mn
+:000000	000000	0000000	VlGj6t2	M	src/main/resources/.globs1
+3	0	src/main/resources/.globs1
+commit:eGeRSI1PapxrJh2vUVo05ZoaZTeq8Ko1c2EaUUD3Dz
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1286,9 +1298,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	EfFT3T1	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/config.yml
-6	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/resources/config.yml
-commit:3abPRtv9PBEzf5BoKgeoQD6QRejI8aCoC31pYxiiYc
+:000000	000000	0000000	Zbq6OfV	M	src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
+102	0	src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
+commit:P58Re7CsAYanIyntHR7RPmON96icloPKk0vOSZhNPx
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1296,9 +1308,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	r773r29	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
-102	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
-commit:yTppKdK5LzR5xVnr6nJNZ1pJufpriIaUwoLdsodjTp
+:000000	000000	0000000	TphC2Me	M	src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
+122	0	src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
+commit:IRlODpIRXZt4NWfESDvBIkXK50rJAcF0uFNHmxvmlp
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1306,9 +1318,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	7QzKp9z	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
-122	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
-commit:0anV0Yzi2sR9nS65JmXGcYJTUETfD9P2vJtJkHscvR
+:000000	000000	0000000	lsRDUYS	M	src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
+87	0	src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
+commit:rtm8XnvgJX2DDhQZhAaJpQyttRXkAu7rZfYhcBUV52
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1316,9 +1328,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	Rd6fJRg	M	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
-87	0	/Users/denisfeier/Documents/git-log-file-generator/src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
-commit:f4SFgdGDglTAxCHp8q0N84KLgw8KFKOE88MFIIeLKC
+:000000	000000	0000000	XAn7GiH	M	src/main/resources/config.yml
+6	0	src/main/resources/config.yml
+commit:02FJcNVfgzuSxwUurgVcbx2z9GMlVNE9LBwghreqQC
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:27 +0000
@@ -1326,9 +1338,9 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	sKHF1hv	M	/Users/denisfeier/Documents/git-log-file-generator/pom.xml
-89	0	/Users/denisfeier/Documents/git-log-file-generator/pom.xml
-commit:pvl9aPJ1P12w05SkzPVYsbirCzqPtEGOc2Z08hAYVC
+:000000	000000	0000000	S8u1c9M	M	pom.xml
+101	0	pom.xml
+commit:uoMFR26BgB9rdFH5kh3uS2xhFwOBqrF9ZqM5jKGRew
 author:denisfeier
 email:denisfeier@generated.com
 date:Tue, 13 Oct 2020 17:36:25 +0000
@@ -1336,31 +1348,31 @@ message:
 Generated
 numstat:
 
-:000000	000000	0000000	KXMQOJz	A	/Users/denisfeier/Documents/git-log-file-generator/.git/info/exclude
-:000000	000000	0000000	vjHH8z1	A	/Users/denisfeier/Documents/git-log-file-generator/.git/description
-:000000	000000	0000000	zGwDBVn	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/commit-msg.sample
-:000000	000000	0000000	NiHYmmn	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-rebase.sample
-:000000	000000	0000000	C4WK4kE	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-commit.sample
-:000000	000000	0000000	492AiXB	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/applypatch-msg.sample
-:000000	000000	0000000	vtDAtIC	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/fsmonitor-watchman.sample
-:000000	000000	0000000	ZtIUsxI	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-receive.sample
-:000000	000000	0000000	r9CDyMj	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/prepare-commit-msg.sample
-:000000	000000	0000000	qoq0hUM	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/post-update.sample
-:000000	000000	0000000	GOjSkjD	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-merge-commit.sample
-:000000	000000	0000000	QwGiHZr	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-applypatch.sample
-:000000	000000	0000000	X7hMcQd	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-push.sample
-:000000	000000	0000000	wZpbaOR	A	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/update.sample
-6	0	/Users/denisfeier/Documents/git-log-file-generator/.git/info/exclude
-1	0	/Users/denisfeier/Documents/git-log-file-generator/.git/description
-24	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/commit-msg.sample
-169	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-rebase.sample
-49	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-commit.sample
-15	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/applypatch-msg.sample
-114	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/fsmonitor-watchman.sample
-24	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-receive.sample
-42	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/prepare-commit-msg.sample
-8	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/post-update.sample
-13	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-merge-commit.sample
-14	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-applypatch.sample
-53	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/pre-push.sample
-128	0	/Users/denisfeier/Documents/git-log-file-generator/.git/hooks/update.sample
+:000000	000000	0000000	4XZHKQa	A	.git/info/exclude
+:000000	000000	0000000	HRpp5hW	A	.git/description
+:000000	000000	0000000	t5fVUOs	A	.git/hooks/commit-msg.sample
+:000000	000000	0000000	lpDhxan	A	.git/hooks/pre-rebase.sample
+:000000	000000	0000000	dHW0mmw	A	.git/hooks/pre-commit.sample
+:000000	000000	0000000	XUrtRq5	A	.git/hooks/applypatch-msg.sample
+:000000	000000	0000000	ybrgFAx	A	.git/hooks/fsmonitor-watchman.sample
+:000000	000000	0000000	38EfAsn	A	.git/hooks/pre-receive.sample
+:000000	000000	0000000	PgxKgpN	A	.git/hooks/prepare-commit-msg.sample
+:000000	000000	0000000	skZP4XK	A	.git/hooks/post-update.sample
+:000000	000000	0000000	tkxuEtX	A	.git/hooks/pre-merge-commit.sample
+:000000	000000	0000000	xsjCluO	A	.git/hooks/pre-applypatch.sample
+:000000	000000	0000000	c0SE7VP	A	.git/hooks/pre-push.sample
+:000000	000000	0000000	PmOUgPd	A	.git/hooks/update.sample
+6	0	.git/info/exclude
+1	0	.git/description
+24	0	.git/hooks/commit-msg.sample
+169	0	.git/hooks/pre-rebase.sample
+49	0	.git/hooks/pre-commit.sample
+15	0	.git/hooks/applypatch-msg.sample
+114	0	.git/hooks/fsmonitor-watchman.sample
+24	0	.git/hooks/pre-receive.sample
+42	0	.git/hooks/prepare-commit-msg.sample
+8	0	.git/hooks/post-update.sample
+13	0	.git/hooks/pre-merge-commit.sample
+14	0	.git/hooks/pre-applypatch.sample
+53	0	.git/hooks/pre-push.sample
+128	0	.git/hooks/update.sample
