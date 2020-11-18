@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN mvn clean compile assembly:single
+RUN mvn clean assembly:assembly
 
 ENV projectPath=""
 
