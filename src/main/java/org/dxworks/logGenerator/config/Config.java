@@ -16,7 +16,7 @@ import java.nio.file.Path;
 @ToString
 public class Config {
     public Threshold threshold;
-    public String rootDir;
+//    public String rootDir;
 
     public static Config createConfig(Path path) throws IOException {
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());

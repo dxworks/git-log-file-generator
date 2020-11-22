@@ -20,7 +20,7 @@ public class ConfigInterpreter {
             int seconds = Integer.parseInt(System.getProperty("config.threshold.seconds", "0"));
             String rootDir = System.getProperty("config.rootDir");
             Threshold threshold = new Threshold(hours, minutes, seconds);
-            return new Config(threshold, rootDir);
+            return new Config(threshold);
         }
 
 
