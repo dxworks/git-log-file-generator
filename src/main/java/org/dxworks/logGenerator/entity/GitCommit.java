@@ -5,6 +5,7 @@ import org.dxworks.logGenerator.exception.EmptyAttributesListException;
 import lombok.Data;
 import lombok.ToString;
 import org.apache.commons.lang3.RandomStringUtils;
+import  org.apache.commons.io.FilenameUtils;
 
 import java.nio.file.Path;
 import java.time.LocalDateTime;
@@ -38,7 +39,7 @@ final public class GitCommit {
 
         this.email = this.author + "@generated.com";
 
-        this.date = fileAttribute.getCreationTime();
+        this.date = fileAttribute.getLastModifiedTime();
 
         this.message = "Generated";
 
@@ -76,12 +77,15 @@ final public class GitCommit {
         for (FileAttribute fa: this.fileAttributes) {
             String id = RandomStringUtils.randomAlphanumeric(7);
             Path pathNumstat = fa.getRelativePath().orElse(fa.getBasePath());
+
+            String stringPath = FilenameUtils.separatorsToUnix(pathNumstat.toString());
+
             builder.append(":000000\t000000\t0000000\t")
                     .append(id)
                     .append("\t")
                     .append(this.isAdded ? "A" : "M")
                     .append("\t")
-                    .append(pathNumstat.toString())
+                    .append(stringPath)
                     .append("\n");
         }
 
@@ -89,11 +93,14 @@ final public class GitCommit {
 
             Path pathNumstat = fa.getRelativePath().orElse(fa.getBasePath());
 
-            builder.append(fa.getLines())
+            String stringPath = FilenameUtils.separatorsToUnix(pathNumstat.toString());
+
+            long lines = fa.getLines();
+            builder.append(lines)
                     .append("\t")
-                    .append("0")
+                    .append(this.isAdded ? "0" : lines)
                     .append("\t")
-                    .append(pathNumstat.toString())
+                    .append(stringPath)
                     .append("\n");
         }
 
