@@ -97,11 +97,11 @@ public class LogBuilder {
         return gitCommits;
     }
 
-    public static void showCommits(List<FileAttribute> attributeList, Config config, boolean added) throws EmptyAttributesListException {
-        if (attributeList.size() != 0) {
-            List<GitCommit> gitCommitsForJustAdded = LogBuilder.createGitCommitLogs(attributeList, config, added);
+    public static void showCommits(List<GitCommit> commits) throws EmptyAttributesListException {
+        if (commits.size() != 0) {
+//            List<GitCommit> gitCommitsForJustAdded = LogBuilder.createGitCommitLogs(attributeList, config, added);
 
-            gitCommitsForJustAdded.forEach(gitCommit -> System.out.println(gitCommit.stringCommit()));
+            commits.forEach(gitCommit -> System.out.println(gitCommit.stringCommit()));
         }
     }
 
