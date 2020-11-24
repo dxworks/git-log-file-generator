@@ -27,7 +27,6 @@ threshold:
   hours: 10
   minutes: 0
   seconds: 0
-rootDir: "PATH TO YOUR ROOT DIR"
 
 // globs ignorer file example
 
