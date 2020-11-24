@@ -1,438 +1,152 @@
-commit:IP92e1sgzEt4Bb7IMhk2zkkAOfSUM9aTqqr89c8KhQ
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:17 +0000
+commit:douVn52VnEsHBrwaI7MGZGqPSKsspO6Xbst9K2CsyO
+author:denisfeier
+email:denisfeier@generated.com
+date:Fri, 30 Oct 2020 20:29:51 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	Bl5K77P	A	target/logGenerator.jar
-19692	0	target/logGenerator.jar
-commit:DbYP8UEcqkiUGs68bEIOxCR5sjflUU4Bkk9f4xon5W
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:17 +0000
+:000000	000000	0000000	zgJDmZk	A	src/controller/user.js
+27	0	src/controller/user.js
+commit:18B4TVbtTyMkaXmxILOmZwkGkuhnkToKOoDuVS4SUR
+author:denisfeier
+email:denisfeier@generated.com
+date:Fri, 30 Oct 2020 20:29:51 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	5pNLPmo	M	target/logGenerator.jar
-19692	19692	target/logGenerator.jar
-commit:84VO6i7gbBEigpweZVrt44wNUfcjt59fTaNE5HO2Ii
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:12 +0000
+:000000	000000	0000000	HvWLmWN	M	src/controller/user.js
+27	27	src/controller/user.js
+commit:MwLaFEKZEWsErie04tA3IHo8P7gfs687PYlQIHmOGW
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:37:49 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	fa0DxtI	A	target/GitLogGenerator-1.0-SNAPSHOT.jar
-163	0	target/GitLogGenerator-1.0-SNAPSHOT.jar
-commit:eubajfgbAr6tDFFM76jbsTY7nDiJgpRzVtcoKSPQVJ
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:12 +0000
+:000000	000000	0000000	yLaGK0F	A	src/route/index.js
+9	0	src/route/index.js
+commit:Po7ZMx9ipud0QboW9v5CX52ENfY6IUARzmiopfS3hA
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:37:49 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	c29vppV	M	target/GitLogGenerator-1.0-SNAPSHOT.jar
-163	163	target/GitLogGenerator-1.0-SNAPSHOT.jar
-commit:bazm8R4UdRXTkpWUDyO4PPCqnzsE2cEzcPJ7fGL7RZ
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:11 +0000
+:000000	000000	0000000	iVjTUwb	M	src/route/index.js
+9	9	src/route/index.js
+commit:hyufZFLGFLLn8WT9QLHysEoQtiUcEsKGV3eiAjIZlU
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:37:27 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	YMcWyp1	A	target/classes/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.class
-:000000	000000	0000000	MLEIspN	A	target/classes/org/dxworks/logGenerator/entity/FileAttribute.class
-:000000	000000	0000000	CTRPtXl	A	target/classes/org/dxworks/logGenerator/config/Config.class
-:000000	000000	0000000	gOHCe5L	A	target/classes/org/dxworks/logGenerator/entity/GitCommit.class
-:000000	000000	0000000	Qk3O9nn	A	target/classes/org/dxworks/logGenerator/exception/EmptyAttributesListException.class
-:000000	000000	0000000	BJsmSbq	A	target/classes/org/dxworks/logGenerator/config/Threshold.class
-:000000	000000	0000000	20iWd5N	A	target/classes/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.class
-:000000	000000	0000000	dLUenZz	A	target/classes/org/dxworks/logGenerator/ignorer/IgnorerBuilder.class
-:000000	000000	0000000	GNI7D7w	A	target/classes/org/dxworks/logGenerator/ignorer/Ignorer.class
-:000000	000000	0000000	E88C7lH	A	target/classes/org/dxworks/logGenerator/GitLogGetPaths.class
-:000000	000000	0000000	8mVVAvI	A	target/classes/org/dxworks/logGenerator/scanner/RecursiveScanner.class
-:000000	000000	0000000	25RRXdL	A	target/classes/org/dxworks/logGenerator/exception/NoProjectPathException.class
-:000000	000000	0000000	IOvR0fA	A	target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
-58	0	target/classes/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.class
-64	0	target/classes/org/dxworks/logGenerator/entity/FileAttribute.class
-22	0	target/classes/org/dxworks/logGenerator/config/Config.class
-51	0	target/classes/org/dxworks/logGenerator/entity/GitCommit.class
-9	0	target/classes/org/dxworks/logGenerator/exception/EmptyAttributesListException.class
-23	0	target/classes/org/dxworks/logGenerator/config/Threshold.class
-17	0	target/classes/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.class
-54	0	target/classes/org/dxworks/logGenerator/ignorer/IgnorerBuilder.class
-23	0	target/classes/org/dxworks/logGenerator/ignorer/Ignorer.class
-48	0	target/classes/org/dxworks/logGenerator/GitLogGetPaths.class
-24	0	target/classes/org/dxworks/logGenerator/scanner/RecursiveScanner.class
-5	0	target/classes/org/dxworks/logGenerator/exception/NoProjectPathException.class
-12	0	target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
-commit:OpF8TxvBy8DGbMGDbSV4ntTLrO83WuTLB02HV74F0O
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:11 +0000
+:000000	000000	0000000	S9NNPTE	A	src/model/user.js
+10	0	src/model/user.js
+commit:O3eF7EYRkY7HZrRKciRfM99wIjboFKpGueJpjkhUT0
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:37:27 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	HCjShWb	M	target/classes/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.class
-:000000	000000	0000000	D8IeyrK	M	target/classes/org/dxworks/logGenerator/entity/FileAttribute.class
-:000000	000000	0000000	CbHoJZk	M	target/classes/org/dxworks/logGenerator/config/Config.class
-:000000	000000	0000000	f85qoFz	M	target/classes/org/dxworks/logGenerator/entity/GitCommit.class
-:000000	000000	0000000	N934AHz	M	target/classes/org/dxworks/logGenerator/exception/EmptyAttributesListException.class
-:000000	000000	0000000	I0XdAhn	M	target/classes/org/dxworks/logGenerator/config/Threshold.class
-:000000	000000	0000000	UcQLq1t	M	target/classes/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.class
-:000000	000000	0000000	s6lLciC	M	target/classes/org/dxworks/logGenerator/ignorer/IgnorerBuilder.class
-:000000	000000	0000000	e1ALVZs	M	target/classes/org/dxworks/logGenerator/ignorer/Ignorer.class
-:000000	000000	0000000	GA7Tf2R	M	target/classes/org/dxworks/logGenerator/GitLogGetPaths.class
-:000000	000000	0000000	jt0oDnG	M	target/classes/org/dxworks/logGenerator/scanner/RecursiveScanner.class
-:000000	000000	0000000	ySBDUDi	M	target/classes/org/dxworks/logGenerator/exception/NoProjectPathException.class
-:000000	000000	0000000	DrH9DcV	M	target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
-58	58	target/classes/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.class
-64	64	target/classes/org/dxworks/logGenerator/entity/FileAttribute.class
-22	22	target/classes/org/dxworks/logGenerator/config/Config.class
-51	51	target/classes/org/dxworks/logGenerator/entity/GitCommit.class
-9	9	target/classes/org/dxworks/logGenerator/exception/EmptyAttributesListException.class
-23	23	target/classes/org/dxworks/logGenerator/config/Threshold.class
-17	17	target/classes/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.class
-54	54	target/classes/org/dxworks/logGenerator/ignorer/IgnorerBuilder.class
-23	23	target/classes/org/dxworks/logGenerator/ignorer/Ignorer.class
-48	48	target/classes/org/dxworks/logGenerator/GitLogGetPaths.class
-24	24	target/classes/org/dxworks/logGenerator/scanner/RecursiveScanner.class
-5	5	target/classes/org/dxworks/logGenerator/exception/NoProjectPathException.class
-12	12	target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
-commit:dtKXldkeHuNQdRKugiAx8DWBMwYH2VYPGZXSN1HkJH
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:08 +0000
+:000000	000000	0000000	LwtuJEH	M	src/model/user.js
+10	10	src/model/user.js
+commit:smGNYDZcacvtF2kQ9DWUyAtKbwyeWJ0pUjCvhwtuMX
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:36:35 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	iY1tj2X	A	target/classes/output
-376	0	target/classes/output
-commit:RtxaM8IoyIcNJxaJCVoqeM8anBeXdFYLhq3DwHOwCc
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:08 +0000
+:000000	000000	0000000	fJaNLgY	A	server.js
+17	0	server.js
+commit:ffXsRqTj9cTi5PYXoOGX5fCDnaGudD6x95NzEF6HzN
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:36:35 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	lhdUuDn	M	target/classes/output
-376	376	target/classes/output
-commit:gHbXhEB2OAU1Xzw27Q8VNknlBB94INFShc1YV7821k
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:04 +0000
+:000000	000000	0000000	mTvPXKU	M	server.js
+17	17	server.js
+commit:jardZTpAd1N3K6OlIw0yEdk6FxdQSx8yEUNFmk3IlY
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:35:17 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	miQcUXv	A	src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
-109	0	src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
-commit:Ap077WVJJXxDJ094IgUGRm8y6EGkVVWF2GXzfXmHdP
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:37:04 +0000
+:000000	000000	0000000	SmtOEsM	A	src/route/user.js
+11	0	src/route/user.js
+commit:sjm1Y2T4OEQa4DyxV1zxot2AHyBWw8uUDcZ3Cbkmq7
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:35:17 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	KQWzIbi	M	src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
-109	109	src/main/java/org/dxworks/logGenerator/entity/GitCommit.java
-commit:l6ci0UuW5nSFglZ5Gm0FlQi8c5JZCkzJ3ncIgOqRlq
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:33:39 +0000
+:000000	000000	0000000	NTgDZYz	M	src/route/user.js
+11	11	src/route/user.js
+commit:l9ExG1CATOlkDd2TfnCpEgdZEwMrE19orUoFQIKgIq
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:11:07 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	b8BQ46W	A	pom.xml
-107	0	pom.xml
-commit:Qe8VSMlFoVK588OXVBnRaWx82yIM5HsLORmBG5Y57Z
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:33:39 +0000
+:000000	000000	0000000	7SGiunu	A	.dockerignore
+1	0	.dockerignore
+commit:ssYLJoLmHlIWui1b3LWg87LSev4ihNtLrTHkd8mprz
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:11:07 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	Nb5fjKp	M	pom.xml
-107	107	pom.xml
-commit:jSsXwAeuLcHDJghlo4BNqj8P0AM5W337t2qEwC2de0
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:30:45 +0000
+:000000	000000	0000000	lZmbP3Q	M	.dockerignore
+1	1	.dockerignore
+commit:TDfD1gijCG5NTiRuYOmOPR41g34hKNeibcWTtk3Xmk
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:03:07 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	PZXluPQ	A	.idea/workspace.xml
-83	0	.idea/workspace.xml
-commit:Rjjv80OBcawxEzPV2TiMs7IMzSQGZtp6dftdrgemtW
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:30:45 +0000
+:000000	000000	0000000	2fiFRZI	A	Dockerfile
+13	0	Dockerfile
+commit:K0fLVbxakm2gp42bmJxmImNfqiBg2tdB5lduTAPKjK
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 19:03:07 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	AfMukKS	M	.idea/workspace.xml
-83	83	.idea/workspace.xml
-commit:yM3wbW1NJQZAQfsPXgTMpaWcxVW47DmwsjRfv9bBDb
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:17:41 +0000
+:000000	000000	0000000	29UFqSh	M	Dockerfile
+13	13	Dockerfile
+commit:ryGL3k1DhSBw4uk0G4s2cMfDjyFZuBDsHyRjCeFz3x
+author:denisfeier
+email:denisfeier@generated.com
+date:Thu, 29 Oct 2020 18:47:08 +0000
 message:
 Generated
 numstat:
 
-:000000	000000	0000000	FeBylqp	A	src/main/resources/output
-376	0	src/main/resources/output
-commit:iUO81zDjQNIaJdjES5itUsDrrq1veJUCXdAkRzFvUO
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:17:41 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	7qXitjs	M	src/main/resources/output
-376	376	src/main/resources/output
-commit:OxEDeKm7kbhMG81rSTi2ZXewNbEwylTAHQAVcsBpUB
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:16:59 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	3Ckl3Fn	A	src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
-30	0	src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
-commit:55hHz7EY7YoTeGYvsHnEVo0JyLqnkTKq01hGS4o0NX
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:16:59 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	q6quS7n	M	src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
-30	30	src/main/java/org/dxworks/logGenerator/config/interpreter/ConfigInterpreter.java
-commit:iOFWJymT4KRtMpToKsXfHOGrJOA5j6TlZKYXByz2DK
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:16:08 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	N2j4uqI	A	target/classes/config.yml
-6	0	target/classes/config.yml
-commit:uiTwdavpeicnGrvDjFceT4sJa0GRGnraHPBh3qSCSO
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:16:08 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	WE5hoP2	M	target/classes/config.yml
-6	6	target/classes/config.yml
-commit:3UUCjyN0TEiq5RDq4kgyEU6TCPCyhfe0K8MTdLAudQ
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:09:56 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	3gZMnw6	A	src/main/resources/config.yml
-:000000	000000	0000000	TXxYLUi	A	src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
-:000000	000000	0000000	90ca1oD	A	src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
-6	0	src/main/resources/config.yml
-87	0	src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
-122	0	src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
-commit:5dUkAWFckBDyVRemloJSFCpWCZTgF9mTB7sezdXG55
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:09:56 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	C6oGXPr	M	src/main/resources/config.yml
-:000000	000000	0000000	bBZx4YI	M	src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
-:000000	000000	0000000	HHmtaqL	M	src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
-6	6	src/main/resources/config.yml
-87	87	src/main/java/org/dxworks/logGenerator/GitLogGetPaths.java
-122	122	src/main/java/org/dxworks/logGenerator/gitLogBuilder/LogBuilder.java
-commit:mJXJdMXuDK084dDbkf28p27QhEQkqFsldWIZWpsX1H
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:03:25 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	H8YaFm9	A	.idea/compiler.xml
-17	0	.idea/compiler.xml
-commit:sYdJ9avHbXfaSz09h92pheZMmaaslhatZS8MRzDV0g
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:03:25 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	0Cuv77T	M	.idea/compiler.xml
-17	17	.idea/compiler.xml
-commit:sDLus6MtEAIyvyvqoJG5wIRjcofVqRHYS3TItreqrL
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:03:24 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	RXjrnPu	A	src/main/java/org/dxworks/logGenerator/config/Config.java
-26	0	src/main/java/org/dxworks/logGenerator/config/Config.java
-commit:m2KExiIbhRmhvC8WXy7GrRVDL3A9eyRP33aiJuTAzT
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 23:03:24 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	DAwefKT	M	src/main/java/org/dxworks/logGenerator/config/Config.java
-26	26	src/main/java/org/dxworks/logGenerator/config/Config.java
-commit:oq6xVrb6A7nB4UcZcJawFCeyXN3nSEXz6ZcJrJY8mA
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 22:48:40 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	2QYBusO	A	.idea/encodings.xml
-:000000	000000	0000000	81CnKeA	A	.idea/modules.xml
-:000000	000000	0000000	qD2Aqil	A	.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
-:000000	000000	0000000	Cr74JDU	A	.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
-:000000	000000	0000000	GiY5PRC	A	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml
-:000000	000000	0000000	YHXLujQ	A	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml
-:000000	000000	0000000	F0de0Qz	A	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml
-:000000	000000	0000000	rBkUodV	A	.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_1.xml
-:000000	000000	0000000	Qw7W8W0	A	.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml
-:000000	000000	0000000	8DZ9H6v	A	.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml
-:000000	000000	0000000	HJhfrDY	A	.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml
-:000000	000000	0000000	PnQF5Mm	A	.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml
-:000000	000000	0000000	OT0e1vM	A	.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml
-:000000	000000	0000000	B8S7BEY	A	.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml
-:000000	000000	0000000	ZIlcRhS	A	.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml
-7	0	.idea/encodings.xml
-8	0	.idea/modules.xml
-13	0	.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
-13	0	.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
-13	0	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml
-13	0	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml
-13	0	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml
-13	0	.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_1.xml
-13	0	.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml
-13	0	.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml
-13	0	.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml
-13	0	.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml
-13	0	.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml
-13	0	.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml
-13	0	.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml
-commit:MlcrqwctuJXO0tfAozT2UhYOwMWQifRkVgmx5aA0EV
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 22:48:39 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	blFH90K	A	GitLogGenerator.iml
-27	0	GitLogGenerator.iml
-commit:aFW1mxz6X5nDoAsB8vJ3ZSvCTqal0uzp7GpID1wv5M
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 22:46:16 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	Ou9FhvG	A	target/maven-archiver/pom.properties
-5	0	target/maven-archiver/pom.properties
-commit:xOZ5Oe7KEHMsJirVVyb32mN7t9ZAjLKppAsC4dd8fS
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 22:46:14 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	Ae1czAV	A	target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
-12	0	target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
-commit:pA64yikN1INhkolobo1CZWemrcsNxB3GXVc2FZe6GN
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 22:46:10 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	NVzm0Ma	A	target/classes/.globs1
-3	0	target/classes/.globs1
-commit:nZElv4T1Brb6zqKbiJQCM1jFFsapv4aIeAxYgUjyvK
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 22:39:42 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	cRt3rSR	A	.idea/.name
-:000000	000000	0000000	TlOmkQO	A	.idea/misc.xml
-:000000	000000	0000000	qrsrgZ0	A	.idea/vcs.xml
-1	0	.idea/.name
-11	0	.idea/misc.xml
-6	0	.idea/vcs.xml
-commit:EarSUa5eo5Km9G9UxqHZEjd7HyrDfONg4bxvQnb35s
-author:DESKTOP-MPB32II\Denisu
-email:DESKTOP-MPB32II\Denisu@generated.com
-date:Sun, 22 Nov 2020 22:39:18 +0000
-message:
-Generated
-numstat:
-
-:000000	000000	0000000	DBamya4	A	.gitignore
-:000000	000000	0000000	wM1becm	A	Dockerfile
-:000000	000000	0000000	BSpzXds	A	Readme.md
-:000000	000000	0000000	FKZh4QD	A	src/main/java/org/dxworks/logGenerator/config/Threshold.java
-:000000	000000	0000000	8OIOh5X	A	src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
-:000000	000000	0000000	dcsAFgJ	A	src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
-:000000	000000	0000000	8vVXIr8	A	src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
-:000000	000000	0000000	gO8vaiF	A	src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
-:000000	000000	0000000	DigP8vm	A	src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
-:000000	000000	0000000	EuEGVzh	A	src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
-:000000	000000	0000000	aMxJXCp	A	src/main/resources/.globs1
-9	0	.gitignore
-17	0	Dockerfile
-245	0	Readme.md
-16	0	src/main/java/org/dxworks/logGenerator/config/Threshold.java
-114	0	src/main/java/org/dxworks/logGenerator/entity/FileAttribute.java
-11	0	src/main/java/org/dxworks/logGenerator/exception/EmptyAttributesListException.java
-7	0	src/main/java/org/dxworks/logGenerator/exception/NoProjectPathException.java
-42	0	src/main/java/org/dxworks/logGenerator/ignorer/Ignorer.java
-88	0	src/main/java/org/dxworks/logGenerator/ignorer/IgnorerBuilder.java
-56	0	src/main/java/org/dxworks/logGenerator/scanner/RecursiveScanner.java
-3	0	src/main/resources/.globs1
+:000000	000000	0000000	zbXMOVG	A	package.json
+:000000	000000	0000000	3ryhSso	A	package-lock.json
+16	0	package.json
+374	0	package-lock.json

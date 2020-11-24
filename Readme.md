@@ -14,8 +14,6 @@ Here we have the config options and some examples.
                 * hours - "Some integer number which describes threshold in hours"
                 * minutes - "Some integer number which describes threshold in minutes"
                 * seconds - "Some integer number which describes threshold in seconds"
-            * rootDir - "This is a path used most of the time for the ignorer, 
-            sets the base path for the globs used in ignorer. (Most of the time it's the same as the projectPath)"
         * ignorer(optional) - "Path to globs file, a unix feature for sorting files. We use it like a gitignore file to build the logs"
         * outputFile(optional) - "Path to a file where we export the logs. (By default the output is STDOUT)"
         * fileConfig(optional) - "Path to a YML file. For the ease of use we can add all the configs in a YML file.",
@@ -47,7 +45,6 @@ threshold:
   hours: 10
   minutes: 0
   seconds: 0
-rootDir: "PATH TO YOUR ROOT DIR"
 ```
 
 ## GLOBS Ignorer File Example (For a basic java app)
