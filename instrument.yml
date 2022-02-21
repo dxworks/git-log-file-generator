@@ -1,0 +1,13 @@
+name: Git Log Generator
+run: once
+results:
+  - dir: ${instrument}/results
+
+commands:
+  - name: Generate git log
+    win: java -Xmx${max-heap} -DprojectPath="${repo}" -DoutputFile="${instrument}/results/log.git" -Dignorer="${ignore-file}" -jar git-log-generator.jar
+    unix: java -Xmx${max-heap} -DprojectPath="${repo}" -DoutputFile="${instrument}/results/log.git" -Dignorer="${ignore-file}" -jar git-log-generator.jar
+
+parameters:
+  ignore-file: .ignore
+  max-heap: 4g

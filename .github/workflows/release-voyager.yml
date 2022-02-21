@@ -1,0 +1,46 @@
+on:
+  push:
+    tags:
+      - 'v*-voyager'
+
+name: Create Voyager Release
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build
+        run: mvn clean package
+      - name: Prepare Assets
+        run: |
+          mkdir git-log-generator
+          mkdir git-log-generator/results
+          cp README.md git-log-generator/README.md
+          cp target/git-log-generator.jar git-log-generator/git-log-generator.jar
+          cp instrument.yml git-log-generator/instrument.yml
+          cp .ignore git-log-generator/.ignore
+      - name: Create Archive
+        run: zip -r git-log-generator.zip git-log-generator
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: git-log-generator ${{ github.ref }}
+          draft: false
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./git-log-generator.zip
+          asset_name: git-log-generator.zip
+          asset_content_type: application/zip
