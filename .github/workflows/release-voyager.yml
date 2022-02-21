@@ -18,7 +18,7 @@ jobs:
         run: |
           mkdir git-log-generator
           mkdir git-log-generator/results
-          cp README.md git-log-generator/README.md
+          cp Readme.md git-log-generator/README.md
           cp target/git-log-generator.jar git-log-generator/git-log-generator.jar
           cp instrument.yml git-log-generator/instrument.yml
           cp .ignore git-log-generator/.ignore
